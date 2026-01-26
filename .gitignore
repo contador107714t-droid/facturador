@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+
+# Logs / temporales
+*.log
+*.err
+server.log
+server.err
+
+# Bases de datos / backups
+*.db
+facturador_backup*.db
+
+# Otros
+.env
