@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="mb-0">Items</h2>
+    <a class="btn btn-primary" href="/items/nuevo">Nuevo item</a>
+</div>
+{% if msg %}<div class="alert alert-success">{{ msg }}</div>{% endif %}
+{% if error %}<div class="alert alert-danger">{{ error }}</div>{% endif %}
+<div class="card p-3">
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Codigo</th>
+                    <th>Descripcion</th>
+                    <th>Grupo</th>
+                    <th class="text-end">Costo</th>
+                    <th class="text-end">Precio</th>
+                    <th class="text-end">IVA</th>
+                    <th class="text-end">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for item in items %}
+                <tr>
+                    <td>{{ item.id }}</td>
+                    <td>{{ item.codigo }}</td>
+                    <td>{{ item.descripcion or '' }}</td>
+                    <td>{{ item.grupo_nombre or '' }}</td>
+                    <td class="text-end">{{ item.costo|currency_cop }}</td>
+                    <td class="text-end">{{ item.precio|currency_cop }}</td>
+                    <td class="text-end">{{ item.iva_rate|format_percent }}</td>
+                    <td class="text-end">
+                        <a class="btn btn-sm btn-outline-primary" href="/items/editar/{{ item.id }}">Editar</a>
+                        <form method="post" action="/items/eliminar/{{ item.id }}" class="d-inline" onsubmit="return confirm('Eliminar item?');">
+                            <button type="submit" class="btn btn-sm btn-outline-danger">Eliminar</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}

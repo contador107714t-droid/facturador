@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card p-4">
+    <h2 class="mb-3">{% if grupo %}Editar{% else %}Crear{% endif %} grupo</h2>
+    {% if error %}<div class="alert alert-danger">{{ error }}</div>{% endif %}
+    <form method="post" class="row g-3">
+        <div class="col-md-6">
+            <label class="form-label">Nombre</label>
+            <input type="text" name="nombre" class="form-control" value="{{ grupo.nombre if grupo else '' }}" placeholder="Ej: Servicios" required>
+        </div>
+        <div class="col-12 d-flex gap-2">
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <a href="/grupos" class="btn btn-outline-secondary">Cancelar</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

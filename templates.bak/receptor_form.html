@@ -1,0 +1,117 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card p-4">
+    <h2 class="mb-3">{% if receptor %}Editar{% else %}Crear{% endif %} cliente</h2>
+    {% if error %}<div class="alert alert-danger">{{ error }}</div>{% endif %}
+    <form method="post" class="row g-3">
+        <div class="col-md-6">
+            <label class="form-label">Nombre</label>
+            <input type="text" name="nombre" class="form-control" value="{{ receptor.nombre if receptor else '' }}" placeholder="Nombre del cliente" required>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Identificacion</label>
+            <div class="input-group">
+                <input type="text" name="identificacion" class="form-control id-co nit-id" value="{{ receptor.identificacion if receptor else '' }}" placeholder="Documento o NIT" required>
+                <span class="input-group-text nit-dv d-none">DV: -</span>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Tipo identificacion</label>
+            <select name="tipo_identificacion" class="form-select tipo-id">
+                <option value="CC" {% if (receptor and receptor.tipo_identificacion == 'CC') or not receptor %}selected{% endif %}>CC</option>
+                <option value="NIT" {% if receptor and receptor.tipo_identificacion == 'NIT' %}selected{% endif %}>NIT</option>
+                <option value="CE" {% if receptor and receptor.tipo_identificacion == 'CE' %}selected{% endif %}>CE</option>
+                <option value="PAS" {% if receptor and receptor.tipo_identificacion == 'PAS' %}selected{% endif %}>PAS</option>
+            </select>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Ciudad</label>
+            <input type="text" name="ciudad" id="ciudad-input" list="ciudades-list" class="form-control" value="{{ receptor.ciudad if receptor else '' }}" placeholder="Ciudad" required>
+            <datalist id="ciudades-list"></datalist>
+            <div id="ciudad-msg" class="form-text text-danger"></div>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Departamento</label>
+            <input type="text" name="departamento" id="departamento-input" class="form-control" value="{{ receptor.departamento if receptor else '' }}" readonly>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Pais</label>
+            <input type="text" name="pais" class="form-control" value="{{ receptor.pais if receptor and receptor.pais else 'Colombia' }}" required>
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Direccion</label>
+            <input type="text" name="direccion" class="form-control" value="{{ receptor.direccion if receptor else '' }}" placeholder="Direccion">
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Telefono</label>
+            <input type="text" name="telefono" class="form-control" value="{{ receptor.telefono if receptor else '' }}" placeholder="Telefono">
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Email</label>
+            <input type="email" name="email" class="form-control" value="{{ receptor.email if receptor else '' }}" placeholder="correo@dominio.com">
+        </div>
+        <div class="col-12 d-flex gap-2">
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <a href="/receptores" class="btn btn-outline-secondary">Cancelar</a>
+        </div>
+    </form>
+</div>
+<script>
+(function () {
+    const cityInput = document.getElementById("ciudad-input");
+    const deptInput = document.getElementById("departamento-input");
+    const cityMsg = document.getElementById("ciudad-msg");
+    const dataList = document.getElementById("ciudades-list");
+    if (!cityInput || !deptInput || !dataList) return;
+
+    const normalize = (text) =>
+        (text || "")
+            .normalize("NFD")
+            .replace(/[\u0300-\u036f]/g, "")
+            .toLowerCase();
+
+    fetch("/data/cities")
+        .then((res) => res.json())
+        .then((data) => {
+            const map = {};
+            data.forEach((item) => {
+                map[normalize(item.ciudad)] = item.departamento;
+            });
+
+            function updateDept() {
+                const dept = map[normalize(cityInput.value)];
+                if (dept) {
+                    deptInput.value = dept;
+                    cityMsg.textContent = "";
+                } else {
+                    deptInput.value = "";
+                    if (cityInput.value.trim()) {
+                        cityMsg.textContent = "Ciudad no encontrada en la lista.";
+                    } else {
+                        cityMsg.textContent = "";
+                    }
+                }
+            }
+
+            function updateSuggestions() {
+                const term = normalize(cityInput.value);
+                dataList.innerHTML = "";
+                if (!term) return;
+                data.forEach((item) => {
+                    if (normalize(item.ciudad).includes(term)) {
+                        const opt = document.createElement("option");
+                        opt.value = item.ciudad;
+                        dataList.appendChild(opt);
+                    }
+                });
+            }
+
+            cityInput.addEventListener("input", () => {
+                updateSuggestions();
+                updateDept();
+            });
+            updateDept();
+        });
+})();
+</script>
+{% endblock %}

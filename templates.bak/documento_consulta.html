@@ -1,0 +1,126 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card p-4 mb-3">
+    <h2 class="mb-3">Consultar documentos</h2>
+    <form action="/documentos/consultar" method="get" class="row g-3">
+        <div class="col-md-4">
+            <label class="form-label">Emisor</label>
+            <select name="emisor_id" class="form-select">
+                <option value="">-- Todos --</option>
+                {% for e in emisores %}
+                <option value="{{ e.id }}" {% if filters.emisor_id == e.id %}selected{% endif %}>{{ e.nombre }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label class="form-label">Cliente</label>
+            <select name="receptor_id" class="form-select">
+                <option value="">-- Todos --</option>
+                {% for r in receptores %}
+                <option value="{{ r.id }}" {% if filters.receptor_id == r.id %}selected{% endif %}>{{ r.nombre }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label class="form-label">Tipo</label>
+            <select name="tipo_documento" class="form-select">
+                <option value="">-- Todos --</option>
+                <option value="FACTURA" {% if filters.tipo_documento == "FACTURA" %}selected{% endif %}>FACTURA DE VENTA</option>
+                <option value="CUENTA_COBRO" {% if filters.tipo_documento == "CUENTA_COBRO" %}selected{% endif %}>CUENTA_COBRO</option>
+            </select>
+        </div>
+        <div class="col-md-4">
+            <label class="form-label">Estado</label>
+            <select name="estado" class="form-select">
+                <option value="EMITIDO" {% if filters.estado == "EMITIDO" %}selected{% endif %}>Emitidos</option>
+                <option value="BORRADOR" {% if filters.estado == "BORRADOR" %}selected{% endif %}>Borradores</option>
+                <option value="TODOS" {% if filters.estado == "TODOS" %}selected{% endif %}>Todos</option>
+            </select>
+        </div>
+        <div class="col-md-2">
+            <label class="form-label">Prefijo</label>
+            <input type="text" name="prefijo" class="form-control" value="{{ filters.prefijo or '' }}">
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Numero</label>
+            <input type="number" name="numero" class="form-control" value="{{ filters.numero or '' }}">
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Fecha desde</label>
+            <input type="date" name="fecha_desde" class="form-control" value="{{ filters.fecha_desde or '' }}">
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Fecha hasta</label>
+            <input type="date" name="fecha_hasta" class="form-control" value="{{ filters.fecha_hasta or '' }}">
+        </div>
+        <div class="col-12 d-flex gap-2">
+            <button type="submit" class="btn btn-primary">Buscar</button>
+            <a href="/documentos/consultar" class="btn btn-outline-secondary">Limpiar</a>
+        </div>
+    </form>
+</div>
+
+{% if msg %}<div class="alert alert-info">{{ msg }}</div>{% endif %}
+{% if error %}<div class="alert alert-danger">{{ error }}</div>{% endif %}
+
+<div class="card p-3">
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead>
+                <tr>
+                    <th>Fecha</th>
+                    <th>Tipo</th>
+                    <th>Estado</th>
+                    <th>Numero</th>
+                    <th>Emisor</th>
+                    <th>Cliente</th>
+                    <th class="text-end">Valor</th>
+                    <th class="text-end">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for doc in docs %}
+                <tr>
+                    <td>{{ doc.fecha }}</td>
+                    <td>{{ doc.tipo }}</td>
+                    <td>{{ doc.estado }}</td>
+                    <td>
+                        {% if doc.numero is not none %}
+                            {{ doc.prefijo }}-{{ "%06d"|format(doc.numero) }}
+                        {% else %}
+                            -
+                        {% endif %}
+                    </td>
+                    <td>{{ doc.emisor_nombre }}</td>
+                    <td>{{ doc.receptor_nombre }}</td>
+                    <td class="text-end">{{ doc.total|currency_cop }}</td>
+                    <td class="text-end">
+                        <div class="d-inline-flex align-items-center gap-2">
+                            <a class="btn btn-sm btn-outline-primary rounded-pill" href="/documentos/{{ doc.id }}">Ver</a>
+                            <a class="btn btn-sm btn-outline-secondary rounded-pill" href="/documentos/editar/{{ doc.id }}">Editar</a>
+                            <form method="post" action="/documentos/eliminar/{{ doc.id }}" class="d-inline" onsubmit="return confirm('¿Eliminar este documento?');">
+                                <button type="submit" class="btn btn-sm btn-outline-danger rounded-pill">Eliminar</button>
+                            </form>
+                        </div>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+            {% if docs %}
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td class="text-end fw-semibold">TOTAL</td>
+                    <td class="text-end fw-semibold">{{ total_consulta|currency_cop }}</td>
+                    <td></td>
+                </tr>
+            </tfoot>
+            {% endif %}
+        </table>
+    </div>
+</div>
+{% endblock %}

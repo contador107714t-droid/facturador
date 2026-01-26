@@ -1,0 +1,52 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card p-4">
+    <h2 class="mb-3">{% if item %}Editar{% else %}Crear{% endif %} item</h2>
+    {% if error %}<div class="alert alert-danger">{{ error }}</div>{% endif %}
+    <form method="post" class="row g-3">
+        <div class="col-md-4">
+            <label class="form-label">Codigo</label>
+            <input type="text" name="codigo" class="form-control" value="{{ item.codigo if item else '' }}" placeholder="SKU o codigo interno" required>
+        </div>
+        <div class="col-md-8">
+            <label class="form-label">Descripcion</label>
+            <input type="text" name="descripcion" class="form-control" value="{{ item.descripcion if item else '' }}" placeholder="Descripcion del item">
+        </div>
+        <div class="col-md-6">
+            <label class="form-label">Grupo</label>
+            <select name="grupo_id" class="form-select">
+                <option value="">-- Sin grupo --</option>
+                {% for g in grupos %}
+                <option value="{{ g.id }}" {% if item and item.grupo_id == g.id %}selected{% endif %}>{{ g.nombre }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        <div class="col-md-3">
+            <label class="form-label">Costo unitario</label>
+            <input type="text" name="costo_display" class="form-control cop-item-display" data-hidden-target="costo" value="{{ item.costo|currency_cop if item else '$0,00' }}" required>
+            <input type="hidden" name="costo" value="{{ item.costo if item else '0' }}">
+        </div>
+        <div class="col-md-3">
+            <label class="form-label">Precio</label>
+            <input type="text" name="precio_display" class="form-control cop-item-display" data-hidden-target="precio" value="{{ item.precio|currency_cop if item else '' }}" required>
+            <input type="hidden" name="precio" value="{{ item.precio if item else '0' }}">
+        </div>
+        <div class="col-md-3">
+            <label class="form-label">IVA</label>
+            <select name="iva_rate" class="form-select" required>
+                {% set iva_value = item.iva_rate if item else 0 %}
+                {% if iva_value <= 1 %}
+                    {% set iva_value = iva_value * 100 %}
+                {% endif %}
+                <option value="0" {% if iva_value == 0 %}selected{% endif %}>0%</option>
+                <option value="5" {% if iva_value == 5 %}selected{% endif %}>5%</option>
+                <option value="19" {% if iva_value == 19 %}selected{% endif %}>19%</option>
+            </select>
+        </div>
+        <div class="col-12 d-flex gap-2">
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <a href="/items" class="btn btn-outline-secondary">Cancelar</a>
+        </div>
+    </form>
+</div>
+{% endblock %}

@@ -1,0 +1,530 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="mb-0">{% if draft %}Editar borrador{% else %}Crear documento{% endif %}</h2>
+</div>
+{% if error %}<div class="alert alert-danger">{{ error }}</div>{% endif %}
+{% if msg %}<div class="alert alert-success">{{ msg }}</div>{% endif %}
+<div id="form-error" class="alert alert-danger d-none"></div>
+{% if edit_mode and draft and draft.estado == "EMITIDO" %}
+<div class="alert alert-warning">Esta editando un documento emitido. El consecutivo no se puede cambiar.</div>
+{% endif %}
+
+{% set consecutivo_text = "Selecciona Emisor y Tipo para ver el consecutivo." %}
+{% set consecutivo_value = "" %}
+{% set consecutivo_display = "" %}
+{% set consecutivo_muted = True %}
+{% if draft and draft.estado != "EMITIDO" and draft.numero is not none %}
+    {% set consecutivo_value = draft.numero %}
+    {% set consecutivo_display = draft.prefijo ~ "-" ~ "%06d"|format(draft.numero) %}
+    {% set consecutivo_text = consecutivo_display %}
+    {% set consecutivo_muted = False %}
+{% endif %}
+<div class="alert alert-light border d-flex justify-content-between align-items-center">
+        <div>
+            <strong>Consecutivo asignado (automatico):</strong>
+        <span id="consecutivo_sugerido" class="ms-1{% if consecutivo_muted %} text-muted{% endif %}">{{ consecutivo_text }}</span>
+        </div>
+    </div>
+
+<div class="card p-4">
+    <style>
+        .doc-lines, .doc-lines * { font-size: 12px !important; }
+        .doc-lines input,
+        .doc-lines select,
+        .doc-lines button {
+            font-size: inherit !important;
+            line-height: 1.2 !important;
+            height: 34px !important;
+            padding: 6px 10px !important;
+            border-radius: 10px !important;
+            box-sizing: border-box !important;
+        }
+        .doc-lines td,
+        .doc-lines th { vertical-align: middle !important; }
+    </style>
+    <form method="post" class="row g-3" data-is-edit="{{ '1' if draft else '0' }}" data-is-emitted="{{ '1' if draft and draft.estado == 'EMITIDO' else '0' }}" data-initial-emisor="{{ draft.emisor_id if draft and draft.estado != 'EMITIDO' else '' }}" data-initial-tipo="{{ draft.tipo if draft and draft.estado != 'EMITIDO' else '' }}" data-initial-prefijo="{{ draft.prefijo if draft and draft.estado != 'EMITIDO' else '' }}" data-initial-consecutivo="{{ consecutivo_value }}" data-initial-display="{{ consecutivo_display }}">
+        {% if edit_mode and draft and draft.estado == "EMITIDO" %}
+        <div class="col-md-3">
+            <label class="form-label">Consecutivo</label>
+            <input type="text" class="form-control" value="{{ draft.prefijo }}-{{ "%06d"|format(draft.numero) }}" readonly>
+        </div>
+        {% endif %}
+
+        <div class="col-md-3">
+            <label class="form-label">Fecha</label>
+            <input type="date" name="fecha" class="form-control" value="{{ fecha }}" required>
+        </div>
+        <input type="hidden" name="numero_sugerido" id="consecutivo-sugerido" value="{{ consecutivo_value }}">
+        <div class="col-md-4">
+            <label class="form-label">Emisor</label>
+            <select name="emisor_id" id="emisor_id" class="form-select" required {% if edit_mode and draft and draft.estado == "EMITIDO" %}disabled{% endif %}>
+                <option value="" {% if not draft %}selected{% endif %}>-- Seleccione --</option>
+                {% for e in emisores %}
+                <option value="{{ e.id }}" {% if draft and draft.emisor_id == e.id %}selected{% endif %}>{{ e.nombre }}</option>
+                {% endfor %}
+            </select>
+            {% if edit_mode and draft and draft.estado == "EMITIDO" %}
+            <input type="hidden" name="emisor_id" value="{{ draft.emisor_id }}">
+            {% endif %}
+        </div>
+        <div class="col-md-4">
+            <label class="form-label">Cliente</label>
+            <select name="receptor_id" class="form-select" required {% if edit_mode and draft and draft.estado == "EMITIDO" %}disabled{% endif %}>
+                <option value="" {% if not draft %}selected{% endif %}>-- Seleccione --</option>
+                {% for r in receptores %}
+                <option value="{{ r.id }}" {% if draft and draft.receptor_id == r.id %}selected{% endif %}>{{ r.nombre }}</option>
+                {% endfor %}
+            </select>
+            {% if edit_mode and draft and draft.estado == "EMITIDO" %}
+            <input type="hidden" name="receptor_id" value="{{ draft.receptor_id }}">
+            {% endif %}
+        </div>
+        <div class="col-md-3">
+            <label class="form-label">Tipo</label>
+            <select name="tipo" id="tipo_documento" class="form-select" required {% if edit_mode and draft and draft.estado == "EMITIDO" %}disabled{% endif %}>
+                <option value="" {% if not draft %}selected{% endif %}>-- Seleccione --</option>
+                <option value="FACTURA" {% if draft and draft.tipo == "FACTURA" %}selected{% endif %}>FACTURA DE VENTA</option>
+                <option value="CUENTA_COBRO" {% if draft and draft.tipo == "CUENTA_COBRO" %}selected{% endif %}>CUENTA_COBRO</option>
+            </select>
+            {% if edit_mode and draft and draft.estado == "EMITIDO" %}
+            <input type="hidden" name="tipo" value="{{ draft.tipo }}">
+            {% endif %}
+        </div>
+        <div class="col-md-3">
+            <label class="form-label">Prefijo</label>
+            <input type="text" name="prefijo" id="prefijo-input" class="form-control" placeholder="FV o CC" value="{{ draft.prefijo if draft else '' }}" {% if edit_mode and draft and draft.estado == "EMITIDO" %}readonly{% endif %}>
+            <div class="form-text">Prefijos sugeridos (FV/CC). Puedes cambiarlos.</div>
+        </div>
+
+        <div class="col-12 lineas-grid" id="lineas-scope">
+            <div class="d-flex justify-content-between align-items-center mt-2">
+                <h4 class="mb-0">Lineas</h4>
+                <button type="button" class="btn btn-sm btn-outline-primary" id="add-line">+ Agregar item</button>
+            </div>
+            <div class="doc-lines">
+                <table class="table table-hover align-middle mb-0 doc-lines-table lineas-table">
+                    <colgroup>
+                        <col style="width: 30%">
+                        <col style="width: 8%">
+                        <col style="width: 18%">
+                        <col style="width: 6%">
+                        <col style="width: 12%">
+                        <col style="width: 10%">
+                        <col style="width: 12%">
+                        <col style="width: 4%">
+                    </colgroup>
+                    <thead>
+                        <tr>
+                            <th class="col-item">Item</th>
+                            <th class="col-cant text-end">Cantidad</th>
+                            <th class="col-precio text-end">Precio unitario</th>
+                            <th class="col-iva-pct text-end">% IVA</th>
+                            <th class="col-base text-end">Base</th>
+                            <th class="col-iva-val text-end">IVA</th>
+                            <th class="col-total text-end">Total linea</th>
+                            <th class="col-accion text-end">Accion</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% set rows = lines if lines and (lines|length) > 0 else [ {} ] %}
+                        {% for line in rows %}
+                        <tr data-line-row>
+                            <td class="col-item">
+                                <select name="item_id_{{ loop.index }}" class="form-select item-select">
+                                    <option value="">--</option>
+                                    {% for it in items %}
+                                    <option value="{{ it.id }}" data-precio="{{ "%.0f"|format(it.precio) }}" data-iva="{{ '%.2f'|format(it.iva_rate * 100) }}"
+                                        {% if line.item_id is defined and line.item_id == it.id %}selected{% endif %}>
+                                        {{ it.descripcion or it.codigo }} ({{ it.codigo }}) - {{ it.precio|currency_cop }} - IVA {{ it.iva_rate|format_percent }}
+                                    </option>
+                                    {% endfor %}
+                                </select>
+                            </td>
+                            <td class="col-cant"><input type="number" step="0.01" min="0" name="cantidad_{{ loop.index }}" class="form-control text-end num qty-input" placeholder="0.00" value="{{ line.cantidad if line.cantidad is defined else 1 }}"></td>
+                            <td class="col-precio"><input type="text" name="precio_{{ loop.index }}" class="form-control text-end num money-input precio-input doc-cop-input" placeholder="$0,00" value="{{ "%.0f"|format(line.precio_unitario) if line.precio_unitario is defined and line.precio_unitario is not none else '' }}"></td>
+                            <td class="col-iva-pct"><input type="text" name="iva_{{ loop.index }}" class="form-control text-end num iva-input" placeholder="0.00" value="{{ line.iva_percent if line.iva_percent is defined else '' }}" readonly></td>
+                            <td class="col-base text-end money base-cell">0.00</td>
+                            <td class="col-iva-val text-end money iva-cell">0.00</td>
+                            <td class="col-total text-end money total-cell">0.00</td>
+                            <td class="col-accion text-end">
+                                <button type="button" class="btn btn-sm btn-outline-danger remove-line">Quitar</button>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <template id="item-row-template">
+            <tr data-line-row>
+                <td class="col-item">
+                    <select name="item_id___INDEX__" class="form-select item-select">
+                        <option value="">--</option>
+                        {% for it in items %}
+                        <option value="{{ it.id }}" data-precio="{{ "%.0f"|format(it.precio) }}" data-iva="{{ '%.2f'|format(it.iva_rate * 100) }}">
+                            {{ it.descripcion or it.codigo }} ({{ it.codigo }}) - {{ it.precio|currency_cop }} - IVA {{ it.iva_rate|format_percent }}
+                        </option>
+                        {% endfor %}
+                    </select>
+                </td>
+                <td class="col-cant"><input type="number" step="0.01" min="0" name="cantidad___INDEX__" class="form-control text-end num qty-input" placeholder="0.00" value="1"></td>
+                <td class="col-precio"><input type="text" name="precio___INDEX__" class="form-control text-end num money-input precio-input doc-cop-input" placeholder="$0,00" value=""></td>
+                <td class="col-iva-pct"><input type="text" name="iva___INDEX__" class="form-control text-end num iva-input" placeholder="0.00" value="" readonly></td>
+                <td class="col-base text-end money base-cell">0.00</td>
+                <td class="col-iva-val text-end money iva-cell">0.00</td>
+                <td class="col-total text-end money total-cell">0.00</td>
+                <td class="col-accion text-end">
+                    <button type="button" class="btn btn-sm btn-outline-danger remove-line">Quitar</button>
+                </td>
+            </tr>
+        </template>
+
+        <div class="col-12">
+            <div class="card p-3 mt-2">
+                <div class="d-flex justify-content-between">
+                    <span class="text-muted">Subtotal</span>
+                    <strong id="res-subtotal">0.00</strong>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <span class="text-muted">IVA</span>
+                    <strong id="res-iva">0.00</strong>
+                </div>
+                <div class="d-flex justify-content-between">
+                    <span class="text-muted">Total</span>
+                    <strong id="res-total">0.00</strong>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-12">
+            <label class="form-label">Observaciones</label>
+            <textarea name="observaciones" class="form-control" rows="3" placeholder="Escriba aquí observaciones, condiciones, notas">{{ draft.observaciones if draft else '' }}</textarea>
+        </div>
+        {% set show_tax_note = draft and draft.tipo == "CUENTA_COBRO" %}
+        {% set include_tax_note = draft and draft.include_tax_note_383 %}
+        <div class="col-12" id="tax-note-383-wrap" {% if not show_tax_note %}style="display:none;"{% endif %}>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="include_tax_note_383" name="include_tax_note_383" value="1" {% if include_tax_note %}checked{% endif %}>
+                <label class="form-check-label" for="include_tax_note_383">Incluir nota tributaria (Art. 383 E.T.)</label>
+            </div>
+            <div class="form-text mt-2" id="tax-note-383-text" {% if not include_tax_note %}style="display:none;"{% endif %}>{{ tax_note_383 }}</div>
+        </div>
+
+        <div class="col-12 d-flex gap-2">
+            {% if edit_mode %}
+                <button type="submit" class="btn btn-primary submit-btn">Guardar cambios</button>
+                {% if draft and draft.estado == "BORRADOR" %}
+                <button type="submit" formaction="/documentos/borrador/{{ draft.id }}/emitir" class="btn btn-outline-secondary submit-btn">Emitir</button>
+                <a href="/documentos/borrador/{{ draft.id }}" class="btn btn-outline-secondary">Cancelar</a>
+                {% else %}
+                <a href="/documentos/{{ draft.id }}" class="btn btn-outline-secondary">Cancelar</a>
+                {% endif %}
+            {% else %}
+                <button type="submit" formaction="{{ borrador_action if borrador_action else '/documentos/borrador' }}" class="btn btn-outline-secondary submit-btn">Guardar borrador</button>
+                <button type="submit" formaction="{{ emit_action if emit_action else '/documentos/nuevo' }}" class="btn btn-primary submit-btn">Emitir</button>
+            {% endif %}
+        </div>
+    </form>
+</div>
+<script>
+(function () {
+    function normalizeIntPart(text) {
+        if (text === null || text === undefined) return "";
+        let s = String(text).trim();
+        if (s === "") return "";
+        s = s.replace(/\$/g, "").replace(/\s/g, "");
+        if (!s.includes(",") && s.includes(".")) {
+            const parts = s.split(".");
+            if (parts.length === 2 && parts[1].length <= 2) {
+                s = parts[0];
+            }
+        }
+        const parts = s.split(",");
+        let intPart = parts[0] || "";
+        intPart = intPart.replace(/\./g, "");
+        intPart = intPart.replace(/\D/g, "");
+        return intPart;
+    }
+
+    function formatCopFromInt(text) {
+        const raw = normalizeIntPart(text);
+        if (!raw) return "";
+        const intPart = raw.replace(/\B(?=(\d{3})+(?!\d))/g, ".");
+        return "$" + intPart + ",00";
+    }
+
+    function parsePrecio(value) {
+        const raw = normalizeIntPart(value);
+        return raw ? parseFloat(raw) : 0;
+    }
+
+    function calc() {
+        let subtotal = 0;
+        let iva = 0;
+        document.querySelectorAll(".item-select").forEach((sel) => {
+            const row = sel.closest("tr");
+            const qtyEl = row.querySelector(".qty-input");
+            const precioEl = row.querySelector(".precio-input");
+            const ivaEl = row.querySelector(".iva-input");
+            const qty = parseFloat(qtyEl.value || "0");
+            const precio = parsePrecio(precioEl.value || "0");
+            const ivaPercent = parseFloat(ivaEl.value || "0");
+            const base = qty > 0 && precio > 0 ? qty * precio : 0;
+            const lineIva = base * (ivaPercent / 100);
+            const lineTotal = base + lineIva;
+
+            row.querySelector(".base-cell").textContent = formatCopFromInt(base);
+            row.querySelector(".iva-cell").textContent = formatCopFromInt(lineIva);
+            row.querySelector(".total-cell").textContent = formatCopFromInt(lineTotal);
+
+            subtotal += base;
+            iva += lineIva;
+        });
+        const total = subtotal + iva;
+        document.getElementById("res-subtotal").textContent = formatCopFromInt(subtotal);
+        document.getElementById("res-iva").textContent = formatCopFromInt(iva);
+        document.getElementById("res-total").textContent = formatCopFromInt(total);
+    }
+
+    function initCopInput(input) {
+        if (!input) return;
+        if (input.value) {
+            input.value = formatCopFromInt(input.value);
+        }
+        input.addEventListener("focus", () => {
+            input.value = normalizeIntPart(input.value);
+        });
+        input.addEventListener("input", () => {
+            input.value = normalizeIntPart(input.value);
+        });
+        input.addEventListener("blur", () => {
+            input.value = formatCopFromInt(input.value);
+        });
+    }
+
+    function bindCalc(el) {
+        if (!el) return;
+        el.addEventListener("change", calc);
+        el.addEventListener("input", calc);
+    }
+
+    function resetRow(row) {
+        if (!row) return;
+        const itemSelect = row.querySelector(".item-select");
+        const qtyInput = row.querySelector(".qty-input");
+        const precioInput = row.querySelector(".precio-input");
+        const ivaInput = row.querySelector(".iva-input");
+        if (itemSelect) itemSelect.value = "";
+        if (qtyInput) qtyInput.value = "1";
+        if (precioInput) precioInput.value = "";
+        if (ivaInput) ivaInput.value = "";
+        row.querySelector(".base-cell").textContent = "0.00";
+        row.querySelector(".iva-cell").textContent = "0.00";
+        row.querySelector(".total-cell").textContent = "0.00";
+    }
+
+    function initRow(row) {
+        if (!row || row.dataset.bound === "1") return;
+        row.dataset.bound = "1";
+        const itemSelect = row.querySelector(".item-select");
+        const qtyInput = row.querySelector(".qty-input");
+        const precioInput = row.querySelector(".precio-input");
+        const ivaInput = row.querySelector(".iva-input");
+        const removeBtn = row.querySelector(".remove-line");
+
+        bindCalc(itemSelect);
+        bindCalc(qtyInput);
+        bindCalc(precioInput);
+        bindCalc(ivaInput);
+        initCopInput(precioInput);
+
+        if (itemSelect) {
+            itemSelect.addEventListener("change", (e) => {
+                const opt = e.target.options[e.target.selectedIndex];
+                if (!opt || !opt.dataset) return;
+                if (opt.dataset.precio) precioInput.value = formatCopFromInt(opt.dataset.precio);
+                if (opt.dataset.iva) ivaInput.value = opt.dataset.iva;
+                calc();
+            });
+        }
+        if (removeBtn) {
+            removeBtn.addEventListener("click", () => {
+                const rows = document.querySelectorAll("tr[data-line-row]");
+                if (rows.length <= 1) {
+                    resetRow(row);
+                } else {
+                    row.remove();
+                    calc();
+                }
+            });
+        }
+    }
+
+    document.querySelectorAll("tr[data-line-row]").forEach(initRow);
+    calc();
+
+    const emisorSel = document.getElementById("emisor_id");
+    const tipoSel = document.getElementById("tipo_documento");
+    const prefijoInput = document.getElementById("prefijo-input");
+    const consecutivoText = document.getElementById("consecutivo_sugerido");
+    const consecutivoHidden = document.getElementById("consecutivo-sugerido");
+    const taxNoteWrap = document.getElementById("tax-note-383-wrap");
+    const taxNoteCheck = document.getElementById("include_tax_note_383");
+    const taxNoteText = document.getElementById("tax-note-383-text");
+    const form = document.querySelector("form[data-is-edit]");
+    const formError = document.getElementById("form-error");
+    const initialEmisor = form ? form.dataset.initialEmisor : "";
+    const initialTipo = form ? form.dataset.initialTipo : "";
+    const initialPrefijo = form ? form.dataset.initialPrefijo : "";
+    const initialConsecutivo = form ? form.dataset.initialConsecutivo : "";
+    const initialDisplay = form ? form.dataset.initialDisplay : "";
+
+    function setConsecutivo(text, tone, value) {
+        if (consecutivoText) {
+            consecutivoText.textContent = text;
+            consecutivoText.classList.toggle("text-muted", tone === "muted");
+            consecutivoText.classList.toggle("text-danger", tone === "error");
+        }
+        if (consecutivoHidden) {
+            consecutivoHidden.value = value || "";
+        }
+    }
+
+    function updateConsecutivo() {
+        if (!emisorSel || !tipoSel || !consecutivoText || !consecutivoHidden) {
+            return;
+        }
+        const emisorId = emisorSel.value;
+        const tipo = tipoSel.value;
+        const prefijo = prefijoInput ? prefijoInput.value : "";
+        if (!emisorId || !tipo) {
+            setConsecutivo("Selecciona Emisor y Tipo para ver el consecutivo.", "muted", "");
+            return;
+        }
+        if (
+            initialConsecutivo &&
+            emisorId === initialEmisor &&
+            tipo === initialTipo &&
+            prefijo === initialPrefijo
+        ) {
+            setConsecutivo(initialDisplay || "-", "normal", initialConsecutivo);
+            return;
+        }
+        const url = new URL("/documentos/next-number", window.location.origin);
+        url.searchParams.set("emisor_id", emisorId);
+        url.searchParams.set("tipo", tipo);
+        url.searchParams.set("prefijo", prefijo);
+        fetch(url.toString())
+            .then((res) => res.json())
+            .then((data) => {
+                if (!data.consecutivo) {
+                    setConsecutivo("Selecciona Emisor y Tipo para ver el consecutivo.", "muted", "");
+                    return;
+                }
+                setConsecutivo(data.display || "-", "normal", data.consecutivo || "");
+            })
+            .catch((err) => {
+                console.error("Error consultando consecutivo", err);
+                setConsecutivo("Error consultando consecutivo.", "error", "");
+            });
+    }
+
+    function updateTaxNoteVisibility() {
+        if (!tipoSel || !taxNoteWrap) return;
+        const isCuentaCobro = tipoSel.value === "CUENTA_COBRO";
+        if (!isCuentaCobro) {
+            if (taxNoteCheck) taxNoteCheck.checked = false;
+            if (taxNoteText) taxNoteText.style.display = "none";
+            taxNoteWrap.style.display = "none";
+            return;
+        }
+        taxNoteWrap.style.display = "block";
+        if (taxNoteText && taxNoteCheck) {
+            taxNoteText.style.display = taxNoteCheck.checked ? "block" : "none";
+        }
+    }
+
+    const isEmitted = form && form.dataset.isEmitted === "1";
+    if (!isEmitted) {
+        if (emisorSel) emisorSel.addEventListener("change", updateConsecutivo);
+        if (tipoSel) tipoSel.addEventListener("change", updateConsecutivo);
+        if (prefijoInput) prefijoInput.addEventListener("input", updateConsecutivo);
+        updateConsecutivo();
+    } else if (consecutivoText) {
+        setConsecutivo("Consecutivo emitido (no editable).", "muted", "");
+    }
+
+    if (taxNoteCheck) taxNoteCheck.addEventListener("change", updateTaxNoteVisibility);
+    if (tipoSel) tipoSel.addEventListener("change", updateTaxNoteVisibility);
+    updateTaxNoteVisibility();
+    function showRequiredMessage() {
+        if (!formError || !form) return;
+        const missing = [];
+        form.querySelectorAll("[required]").forEach((field) => {
+            if (!field.value) {
+                const label = field.closest(".col-md-3, .col-md-4, .col-12")?.querySelector(".form-label");
+                missing.push(label ? label.textContent.trim() : "Campos obligatorios");
+            }
+        });
+        const unique = [...new Set(missing)];
+        const msg = unique.length
+            ? `Completa los campos obligatorios: ${unique.join(", ")}.`
+            : "Completa los campos obligatorios antes de emitir o guardar.";
+        formError.textContent = msg;
+        formError.classList.remove("d-none");
+    }
+
+    if (form) {
+        form.addEventListener("submit", (e) => {
+            if (form.checkValidity()) {
+                if (formError) formError.classList.add("d-none");
+                return;
+            }
+            e.preventDefault();
+            showRequiredMessage();
+            form.reportValidity();
+        });
+        form.querySelectorAll(".submit-btn").forEach((btn) => {
+            btn.addEventListener("click", () => {
+                if (!form.checkValidity()) {
+                    showRequiredMessage();
+                } else if (formError) {
+                    formError.classList.add("d-none");
+                }
+            });
+        });
+    }
+    const addLineBtn = document.getElementById("add-line");
+    const lineTemplate = document.getElementById("item-row-template");
+    let nextLineIndex = 1;
+    document.querySelectorAll("tr[data-line-row]").forEach((row) => {
+        row.querySelectorAll("select[name^='item_id_']").forEach((sel) => {
+            const parts = sel.name.split("_");
+            const idx = parseInt(parts[2], 10);
+            if (!Number.isNaN(idx) && idx >= nextLineIndex) nextLineIndex = idx + 1;
+        });
+    });
+
+    if (addLineBtn && lineTemplate) {
+        addLineBtn.addEventListener("click", () => {
+            const html = lineTemplate.innerHTML.replace(/__INDEX__/g, String(nextLineIndex));
+            nextLineIndex += 1;
+            const wrapper = document.createElement("tbody");
+            wrapper.innerHTML = html.trim();
+            const newRow = wrapper.querySelector("tr[data-line-row]");
+            const tbody = document.querySelector("table tbody");
+            if (newRow && tbody) {
+                tbody.appendChild(newRow);
+                initRow(newRow);
+                calc();
+            }
+        });
+    }
+
+    if (form && form.dataset.isEdit === "0") {
+        form.querySelectorAll("tr[data-line-row]").forEach((row) => resetRow(row));
+    }
+})();
+</script>
+{% endblock %}

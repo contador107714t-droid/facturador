@@ -1,0 +1,53 @@
+FACTURADOR MVP - INSTRUCCIONES
+
+Requisitos
+- Python 3.10+ instalado.
+
+1) Entrar a la carpeta del proyecto
+   cd "C:\Users\Javier Dell\facturador-mvp"
+
+2) Crear entorno virtual (solo la primera vez)
+   python -m venv .venv
+
+3) Activar el entorno virtual
+   .\.venv\Scripts\Activate.ps1
+
+4) Instalar dependencias
+   pip install -r requirements.txt
+
+5) Ejecutar el servidor
+   python -m uvicorn app:app --reload
+
+6) Abrir en el navegador
+   http://127.0.0.1:8000
+
+Datos de ejemplo
+- Emisor: Empresa Demo
+- Receptor: Cliente Demo
+- Items: Servicio A, Producto B
+- Documento: Factura FE-1
+
+Como crear el primer emisor
+- Ir a Emisores -> Crear emisor -> completar el formulario -> Guardar.
+
+Como crear el primer receptor
+- Ir a Receptores -> Crear receptor -> completar el formulario -> Guardar.
+
+Como crear el primer item
+- Ir a Items -> Crear item -> completar el formulario -> Guardar.
+
+Como emitir el primer documento
+- Ir a Crear documento.
+- Seleccionar Emisor y Receptor.
+- Elegir tipo (FACTURA o CUENTA_COBRO).
+- Opcional: Prefijo (ej FE o CC). Si se deja vacio, se usa FE o CC segun tipo.
+- Agregar una o mas lineas con items y cantidades.
+- Emitir.
+
+Consulta de documentos
+- Ir a Consultar documento.
+- Elegir emisor, tipo, prefijo y numero.
+
+Notas
+- El consecutivo es independiente por emisor, tipo y prefijo.
+- El archivo de base de datos es facturador.db en esta carpeta.

@@ -1,0 +1,6734 @@
+[
+  {
+    "ciudad": "Medellín",
+    "departamento": "Antioquia",
+    "cod_mpio": "05001",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Abejorral",
+    "departamento": "Antioquia",
+    "cod_mpio": "05002",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Abriaquí",
+    "departamento": "Antioquia",
+    "cod_mpio": "05004",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Alejandría",
+    "departamento": "Antioquia",
+    "cod_mpio": "05021",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Amagá",
+    "departamento": "Antioquia",
+    "cod_mpio": "05030",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Amalfi",
+    "departamento": "Antioquia",
+    "cod_mpio": "05031",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Andes",
+    "departamento": "Antioquia",
+    "cod_mpio": "05034",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Angelópolis",
+    "departamento": "Antioquia",
+    "cod_mpio": "05036",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Angostura",
+    "departamento": "Antioquia",
+    "cod_mpio": "05038",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Anorí",
+    "departamento": "Antioquia",
+    "cod_mpio": "05040",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Santa Fé de Antioquia",
+    "departamento": "Antioquia",
+    "cod_mpio": "05042",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Anzá",
+    "departamento": "Antioquia",
+    "cod_mpio": "05044",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Apartadó",
+    "departamento": "Antioquia",
+    "cod_mpio": "05045",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Arboletes",
+    "departamento": "Antioquia",
+    "cod_mpio": "05051",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Argelia",
+    "departamento": "Antioquia",
+    "cod_mpio": "05055",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Armenia",
+    "departamento": "Antioquia",
+    "cod_mpio": "05059",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Barbosa",
+    "departamento": "Antioquia",
+    "cod_mpio": "05079",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Belmira",
+    "departamento": "Antioquia",
+    "cod_mpio": "05086",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Bello",
+    "departamento": "Antioquia",
+    "cod_mpio": "05088",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Betania",
+    "departamento": "Antioquia",
+    "cod_mpio": "05091",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Betulia",
+    "departamento": "Antioquia",
+    "cod_mpio": "05093",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Ciudad Bolívar",
+    "departamento": "Antioquia",
+    "cod_mpio": "05101",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Briceño",
+    "departamento": "Antioquia",
+    "cod_mpio": "05107",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Buriticá",
+    "departamento": "Antioquia",
+    "cod_mpio": "05113",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Cáceres",
+    "departamento": "Antioquia",
+    "cod_mpio": "05120",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Caicedo",
+    "departamento": "Antioquia",
+    "cod_mpio": "05125",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Caldas",
+    "departamento": "Antioquia",
+    "cod_mpio": "05129",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Campamento",
+    "departamento": "Antioquia",
+    "cod_mpio": "05134",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Cañasgordas",
+    "departamento": "Antioquia",
+    "cod_mpio": "05138",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Caracolí",
+    "departamento": "Antioquia",
+    "cod_mpio": "05142",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Caramanta",
+    "departamento": "Antioquia",
+    "cod_mpio": "05145",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Carepa",
+    "departamento": "Antioquia",
+    "cod_mpio": "05147",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "El Carmen de Viboral",
+    "departamento": "Antioquia",
+    "cod_mpio": "05148",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Carolina",
+    "departamento": "Antioquia",
+    "cod_mpio": "05150",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Caucasia",
+    "departamento": "Antioquia",
+    "cod_mpio": "05154",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Chigorodó",
+    "departamento": "Antioquia",
+    "cod_mpio": "05172",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Cisneros",
+    "departamento": "Antioquia",
+    "cod_mpio": "05190",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Cocorná",
+    "departamento": "Antioquia",
+    "cod_mpio": "05197",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Concepción",
+    "departamento": "Antioquia",
+    "cod_mpio": "05206",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Concordia",
+    "departamento": "Antioquia",
+    "cod_mpio": "05209",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Copacabana",
+    "departamento": "Antioquia",
+    "cod_mpio": "05212",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Dabeiba",
+    "departamento": "Antioquia",
+    "cod_mpio": "05234",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Donmatías",
+    "departamento": "Antioquia",
+    "cod_mpio": "05237",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Ebéjico",
+    "departamento": "Antioquia",
+    "cod_mpio": "05240",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "El Bagre",
+    "departamento": "Antioquia",
+    "cod_mpio": "05250",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Entrerríos",
+    "departamento": "Antioquia",
+    "cod_mpio": "05264",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Envigado",
+    "departamento": "Antioquia",
+    "cod_mpio": "05266",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Fredonia",
+    "departamento": "Antioquia",
+    "cod_mpio": "05282",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Frontino",
+    "departamento": "Antioquia",
+    "cod_mpio": "05284",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Giraldo",
+    "departamento": "Antioquia",
+    "cod_mpio": "05306",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Girardota",
+    "departamento": "Antioquia",
+    "cod_mpio": "05308",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Gómez Plata",
+    "departamento": "Antioquia",
+    "cod_mpio": "05310",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Granada",
+    "departamento": "Antioquia",
+    "cod_mpio": "05313",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Guadalupe",
+    "departamento": "Antioquia",
+    "cod_mpio": "05315",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Guarne",
+    "departamento": "Antioquia",
+    "cod_mpio": "05318",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Guatapé",
+    "departamento": "Antioquia",
+    "cod_mpio": "05321",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Heliconia",
+    "departamento": "Antioquia",
+    "cod_mpio": "05347",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Hispania",
+    "departamento": "Antioquia",
+    "cod_mpio": "05353",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Itagüí",
+    "departamento": "Antioquia",
+    "cod_mpio": "05360",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Ituango",
+    "departamento": "Antioquia",
+    "cod_mpio": "05361",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Jardín",
+    "departamento": "Antioquia",
+    "cod_mpio": "05364",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Jericó",
+    "departamento": "Antioquia",
+    "cod_mpio": "05368",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "La Ceja",
+    "departamento": "Antioquia",
+    "cod_mpio": "05376",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "La Estrella",
+    "departamento": "Antioquia",
+    "cod_mpio": "05380",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "La Pintada",
+    "departamento": "Antioquia",
+    "cod_mpio": "05390",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "La Unión",
+    "departamento": "Antioquia",
+    "cod_mpio": "05400",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Liborina",
+    "departamento": "Antioquia",
+    "cod_mpio": "05411",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Maceo",
+    "departamento": "Antioquia",
+    "cod_mpio": "05425",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Marinilla",
+    "departamento": "Antioquia",
+    "cod_mpio": "05440",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Montebello",
+    "departamento": "Antioquia",
+    "cod_mpio": "05467",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Murindó",
+    "departamento": "Antioquia",
+    "cod_mpio": "05475",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Mutatá",
+    "departamento": "Antioquia",
+    "cod_mpio": "05480",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Nariño",
+    "departamento": "Antioquia",
+    "cod_mpio": "05483",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Necoclí",
+    "departamento": "Antioquia",
+    "cod_mpio": "05490",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Nechí",
+    "departamento": "Antioquia",
+    "cod_mpio": "05495",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Olaya",
+    "departamento": "Antioquia",
+    "cod_mpio": "05501",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Peñol",
+    "departamento": "Antioquia",
+    "cod_mpio": "05541",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Peque",
+    "departamento": "Antioquia",
+    "cod_mpio": "05543",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Pueblorrico",
+    "departamento": "Antioquia",
+    "cod_mpio": "05576",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Puerto Berrío",
+    "departamento": "Antioquia",
+    "cod_mpio": "05579",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Puerto Nare",
+    "departamento": "Antioquia",
+    "cod_mpio": "05585",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Puerto Triunfo",
+    "departamento": "Antioquia",
+    "cod_mpio": "05591",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Remedios",
+    "departamento": "Antioquia",
+    "cod_mpio": "05604",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Retiro",
+    "departamento": "Antioquia",
+    "cod_mpio": "05607",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Rionegro",
+    "departamento": "Antioquia",
+    "cod_mpio": "05615",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Sabanalarga",
+    "departamento": "Antioquia",
+    "cod_mpio": "05628",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Sabaneta",
+    "departamento": "Antioquia",
+    "cod_mpio": "05631",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Salgar",
+    "departamento": "Antioquia",
+    "cod_mpio": "05642",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "San Andrés de Cuerquía",
+    "departamento": "Antioquia",
+    "cod_mpio": "05647",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "San Carlos",
+    "departamento": "Antioquia",
+    "cod_mpio": "05649",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "San Francisco",
+    "departamento": "Antioquia",
+    "cod_mpio": "05652",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "San Jerónimo",
+    "departamento": "Antioquia",
+    "cod_mpio": "05656",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "San José de la Montaña",
+    "departamento": "Antioquia",
+    "cod_mpio": "05658",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "San Juan de Urabá",
+    "departamento": "Antioquia",
+    "cod_mpio": "05659",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "San Luis",
+    "departamento": "Antioquia",
+    "cod_mpio": "05660",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "San Pedro de los Milagros",
+    "departamento": "Antioquia",
+    "cod_mpio": "05664",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "San Pedro de Urabá",
+    "departamento": "Antioquia",
+    "cod_mpio": "05665",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "San Rafael",
+    "departamento": "Antioquia",
+    "cod_mpio": "05667",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "San Roque",
+    "departamento": "Antioquia",
+    "cod_mpio": "05670",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "San Vicente Ferrer",
+    "departamento": "Antioquia",
+    "cod_mpio": "05674",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Santa Bárbara",
+    "departamento": "Antioquia",
+    "cod_mpio": "05679",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Santa Rosa de Osos",
+    "departamento": "Antioquia",
+    "cod_mpio": "05686",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Santo Domingo",
+    "departamento": "Antioquia",
+    "cod_mpio": "05690",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "El Santuario",
+    "departamento": "Antioquia",
+    "cod_mpio": "05697",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Segovia",
+    "departamento": "Antioquia",
+    "cod_mpio": "05736",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Sonsón",
+    "departamento": "Antioquia",
+    "cod_mpio": "05756",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Sopetrán",
+    "departamento": "Antioquia",
+    "cod_mpio": "05761",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Támesis",
+    "departamento": "Antioquia",
+    "cod_mpio": "05789",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Tarazá",
+    "departamento": "Antioquia",
+    "cod_mpio": "05790",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Tarso",
+    "departamento": "Antioquia",
+    "cod_mpio": "05792",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Titiribí",
+    "departamento": "Antioquia",
+    "cod_mpio": "05809",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Toledo",
+    "departamento": "Antioquia",
+    "cod_mpio": "05819",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Turbo",
+    "departamento": "Antioquia",
+    "cod_mpio": "05837",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Uramita",
+    "departamento": "Antioquia",
+    "cod_mpio": "05842",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Urrao",
+    "departamento": "Antioquia",
+    "cod_mpio": "05847",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Valdivia",
+    "departamento": "Antioquia",
+    "cod_mpio": "05854",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Valparaíso",
+    "departamento": "Antioquia",
+    "cod_mpio": "05856",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Vegachí",
+    "departamento": "Antioquia",
+    "cod_mpio": "05858",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Venecia",
+    "departamento": "Antioquia",
+    "cod_mpio": "05861",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Vigía del Fuerte",
+    "departamento": "Antioquia",
+    "cod_mpio": "05873",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Yalí",
+    "departamento": "Antioquia",
+    "cod_mpio": "05885",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Yarumal",
+    "departamento": "Antioquia",
+    "cod_mpio": "05887",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Yolombó",
+    "departamento": "Antioquia",
+    "cod_mpio": "05890",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Yondó",
+    "departamento": "Antioquia",
+    "cod_mpio": "05893",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Zaragoza",
+    "departamento": "Antioquia",
+    "cod_mpio": "05895",
+    "cod_dpto": "05"
+  },
+  {
+    "ciudad": "Barranquilla",
+    "departamento": "Atlántico",
+    "cod_mpio": "08001",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Baranoa",
+    "departamento": "Atlántico",
+    "cod_mpio": "08078",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Campo de la Cruz",
+    "departamento": "Atlántico",
+    "cod_mpio": "08137",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Candelaria",
+    "departamento": "Atlántico",
+    "cod_mpio": "08141",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Galapa",
+    "departamento": "Atlántico",
+    "cod_mpio": "08296",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Juan de Acosta",
+    "departamento": "Atlántico",
+    "cod_mpio": "08372",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Luruaco",
+    "departamento": "Atlántico",
+    "cod_mpio": "08421",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Malambo",
+    "departamento": "Atlántico",
+    "cod_mpio": "08433",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Manatí",
+    "departamento": "Atlántico",
+    "cod_mpio": "08436",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Palmar de Varela",
+    "departamento": "Atlántico",
+    "cod_mpio": "08520",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Piojó",
+    "departamento": "Atlántico",
+    "cod_mpio": "08549",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Polonuevo",
+    "departamento": "Atlántico",
+    "cod_mpio": "08558",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Ponedera",
+    "departamento": "Atlántico",
+    "cod_mpio": "08560",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Puerto Colombia",
+    "departamento": "Atlántico",
+    "cod_mpio": "08573",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Repelón",
+    "departamento": "Atlántico",
+    "cod_mpio": "08606",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Sabanagrande",
+    "departamento": "Atlántico",
+    "cod_mpio": "08634",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Sabanalarga",
+    "departamento": "Atlántico",
+    "cod_mpio": "08638",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Santa Lucía",
+    "departamento": "Atlántico",
+    "cod_mpio": "08675",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Santo Tomás",
+    "departamento": "Atlántico",
+    "cod_mpio": "08685",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Soledad",
+    "departamento": "Atlántico",
+    "cod_mpio": "08758",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Suan",
+    "departamento": "Atlántico",
+    "cod_mpio": "08770",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Tubará",
+    "departamento": "Atlántico",
+    "cod_mpio": "08832",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Usiacurí",
+    "departamento": "Atlántico",
+    "cod_mpio": "08849",
+    "cod_dpto": "08"
+  },
+  {
+    "ciudad": "Bogotá, D.C.",
+    "departamento": "Bogotá, D.C.",
+    "cod_mpio": "11001",
+    "cod_dpto": "11"
+  },
+  {
+    "ciudad": "Cartagena de Indias",
+    "departamento": "Bolívar",
+    "cod_mpio": "13001",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Achí",
+    "departamento": "Bolívar",
+    "cod_mpio": "13006",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Altos del Rosario",
+    "departamento": "Bolívar",
+    "cod_mpio": "13030",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Arenal",
+    "departamento": "Bolívar",
+    "cod_mpio": "13042",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Arjona",
+    "departamento": "Bolívar",
+    "cod_mpio": "13052",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Arroyohondo",
+    "departamento": "Bolívar",
+    "cod_mpio": "13062",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Barranco de Loba",
+    "departamento": "Bolívar",
+    "cod_mpio": "13074",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Calamar",
+    "departamento": "Bolívar",
+    "cod_mpio": "13140",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Cantagallo",
+    "departamento": "Bolívar",
+    "cod_mpio": "13160",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Cicuco",
+    "departamento": "Bolívar",
+    "cod_mpio": "13188",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Córdoba",
+    "departamento": "Bolívar",
+    "cod_mpio": "13212",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Clemencia",
+    "departamento": "Bolívar",
+    "cod_mpio": "13222",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "El Carmen de Bolívar",
+    "departamento": "Bolívar",
+    "cod_mpio": "13244",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "El Guamo",
+    "departamento": "Bolívar",
+    "cod_mpio": "13248",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "El Peñón",
+    "departamento": "Bolívar",
+    "cod_mpio": "13268",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Hatillo de Loba",
+    "departamento": "Bolívar",
+    "cod_mpio": "13300",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Magangué",
+    "departamento": "Bolívar",
+    "cod_mpio": "13430",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Mahates",
+    "departamento": "Bolívar",
+    "cod_mpio": "13433",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Margarita",
+    "departamento": "Bolívar",
+    "cod_mpio": "13440",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "María la Baja",
+    "departamento": "Bolívar",
+    "cod_mpio": "13442",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Montecristo",
+    "departamento": "Bolívar",
+    "cod_mpio": "13458",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Santa Cruz de Mompox",
+    "departamento": "Bolívar",
+    "cod_mpio": "13468",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Morales",
+    "departamento": "Bolívar",
+    "cod_mpio": "13473",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Norosí",
+    "departamento": "Bolívar",
+    "cod_mpio": "13490",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Pinillos",
+    "departamento": "Bolívar",
+    "cod_mpio": "13549",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Regidor",
+    "departamento": "Bolívar",
+    "cod_mpio": "13580",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Río Viejo",
+    "departamento": "Bolívar",
+    "cod_mpio": "13600",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "San Cristóbal",
+    "departamento": "Bolívar",
+    "cod_mpio": "13620",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "San Estanislao",
+    "departamento": "Bolívar",
+    "cod_mpio": "13647",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "San Fernando",
+    "departamento": "Bolívar",
+    "cod_mpio": "13650",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "San Jacinto",
+    "departamento": "Bolívar",
+    "cod_mpio": "13654",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "San Jacinto del Cauca",
+    "departamento": "Bolívar",
+    "cod_mpio": "13655",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "San Juan Nepomuceno",
+    "departamento": "Bolívar",
+    "cod_mpio": "13657",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "San Martín de Loba",
+    "departamento": "Bolívar",
+    "cod_mpio": "13667",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "San Pablo",
+    "departamento": "Bolívar",
+    "cod_mpio": "13670",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Santa Catalina",
+    "departamento": "Bolívar",
+    "cod_mpio": "13673",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Santa Rosa",
+    "departamento": "Bolívar",
+    "cod_mpio": "13683",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Santa Rosa del Sur",
+    "departamento": "Bolívar",
+    "cod_mpio": "13688",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Simití",
+    "departamento": "Bolívar",
+    "cod_mpio": "13744",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Soplaviento",
+    "departamento": "Bolívar",
+    "cod_mpio": "13760",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Talaigua Nuevo",
+    "departamento": "Bolívar",
+    "cod_mpio": "13780",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Tiquisio",
+    "departamento": "Bolívar",
+    "cod_mpio": "13810",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Turbaco",
+    "departamento": "Bolívar",
+    "cod_mpio": "13836",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Turbana",
+    "departamento": "Bolívar",
+    "cod_mpio": "13838",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Villanueva",
+    "departamento": "Bolívar",
+    "cod_mpio": "13873",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Zambrano",
+    "departamento": "Bolívar",
+    "cod_mpio": "13894",
+    "cod_dpto": "13"
+  },
+  {
+    "ciudad": "Tunja",
+    "departamento": "Boyacá",
+    "cod_mpio": "15001",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Almeida",
+    "departamento": "Boyacá",
+    "cod_mpio": "15022",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Aquitania",
+    "departamento": "Boyacá",
+    "cod_mpio": "15047",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Arcabuco",
+    "departamento": "Boyacá",
+    "cod_mpio": "15051",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Belén",
+    "departamento": "Boyacá",
+    "cod_mpio": "15087",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Berbeo",
+    "departamento": "Boyacá",
+    "cod_mpio": "15090",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Betéitiva",
+    "departamento": "Boyacá",
+    "cod_mpio": "15092",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Boavita",
+    "departamento": "Boyacá",
+    "cod_mpio": "15097",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Boyacá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15104",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Briceño",
+    "departamento": "Boyacá",
+    "cod_mpio": "15106",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Buenavista",
+    "departamento": "Boyacá",
+    "cod_mpio": "15109",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Busbanzá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15114",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Caldas",
+    "departamento": "Boyacá",
+    "cod_mpio": "15131",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Campohermoso",
+    "departamento": "Boyacá",
+    "cod_mpio": "15135",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Cerinza",
+    "departamento": "Boyacá",
+    "cod_mpio": "15162",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Chinavita",
+    "departamento": "Boyacá",
+    "cod_mpio": "15172",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Chiquinquirá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15176",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Chiscas",
+    "departamento": "Boyacá",
+    "cod_mpio": "15180",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Chita",
+    "departamento": "Boyacá",
+    "cod_mpio": "15183",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Chitaraque",
+    "departamento": "Boyacá",
+    "cod_mpio": "15185",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Chivatá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15187",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Ciénega",
+    "departamento": "Boyacá",
+    "cod_mpio": "15189",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Cómbita",
+    "departamento": "Boyacá",
+    "cod_mpio": "15204",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Coper",
+    "departamento": "Boyacá",
+    "cod_mpio": "15212",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Corrales",
+    "departamento": "Boyacá",
+    "cod_mpio": "15215",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Covarachía",
+    "departamento": "Boyacá",
+    "cod_mpio": "15218",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Cubará",
+    "departamento": "Boyacá",
+    "cod_mpio": "15223",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Cucaita",
+    "departamento": "Boyacá",
+    "cod_mpio": "15224",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Cuítiva",
+    "departamento": "Boyacá",
+    "cod_mpio": "15226",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Chíquiza",
+    "departamento": "Boyacá",
+    "cod_mpio": "15232",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Chivor",
+    "departamento": "Boyacá",
+    "cod_mpio": "15236",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Duitama",
+    "departamento": "Boyacá",
+    "cod_mpio": "15238",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "El Cocuy",
+    "departamento": "Boyacá",
+    "cod_mpio": "15244",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "El Espino",
+    "departamento": "Boyacá",
+    "cod_mpio": "15248",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Firavitoba",
+    "departamento": "Boyacá",
+    "cod_mpio": "15272",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Floresta",
+    "departamento": "Boyacá",
+    "cod_mpio": "15276",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Gachantivá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15293",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Gámeza",
+    "departamento": "Boyacá",
+    "cod_mpio": "15296",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Garagoa",
+    "departamento": "Boyacá",
+    "cod_mpio": "15299",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Guacamayas",
+    "departamento": "Boyacá",
+    "cod_mpio": "15317",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Guateque",
+    "departamento": "Boyacá",
+    "cod_mpio": "15322",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Guayatá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15325",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Güicán de la Sierra",
+    "departamento": "Boyacá",
+    "cod_mpio": "15332",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Iza",
+    "departamento": "Boyacá",
+    "cod_mpio": "15362",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Jenesano",
+    "departamento": "Boyacá",
+    "cod_mpio": "15367",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Jericó",
+    "departamento": "Boyacá",
+    "cod_mpio": "15368",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Labranzagrande",
+    "departamento": "Boyacá",
+    "cod_mpio": "15377",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "La Capilla",
+    "departamento": "Boyacá",
+    "cod_mpio": "15380",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "La Victoria",
+    "departamento": "Boyacá",
+    "cod_mpio": "15401",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "La Uvita",
+    "departamento": "Boyacá",
+    "cod_mpio": "15403",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Villa de Leyva",
+    "departamento": "Boyacá",
+    "cod_mpio": "15407",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Macanal",
+    "departamento": "Boyacá",
+    "cod_mpio": "15425",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Maripí",
+    "departamento": "Boyacá",
+    "cod_mpio": "15442",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Miraflores",
+    "departamento": "Boyacá",
+    "cod_mpio": "15455",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Mongua",
+    "departamento": "Boyacá",
+    "cod_mpio": "15464",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Monguí",
+    "departamento": "Boyacá",
+    "cod_mpio": "15466",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Moniquirá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15469",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Motavita",
+    "departamento": "Boyacá",
+    "cod_mpio": "15476",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Muzo",
+    "departamento": "Boyacá",
+    "cod_mpio": "15480",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Nobsa",
+    "departamento": "Boyacá",
+    "cod_mpio": "15491",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Nuevo Colón",
+    "departamento": "Boyacá",
+    "cod_mpio": "15494",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Oicatá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15500",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Otanche",
+    "departamento": "Boyacá",
+    "cod_mpio": "15507",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Pachavita",
+    "departamento": "Boyacá",
+    "cod_mpio": "15511",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Páez",
+    "departamento": "Boyacá",
+    "cod_mpio": "15514",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Paipa",
+    "departamento": "Boyacá",
+    "cod_mpio": "15516",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Pajarito",
+    "departamento": "Boyacá",
+    "cod_mpio": "15518",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Panqueba",
+    "departamento": "Boyacá",
+    "cod_mpio": "15522",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Pauna",
+    "departamento": "Boyacá",
+    "cod_mpio": "15531",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Paya",
+    "departamento": "Boyacá",
+    "cod_mpio": "15533",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Paz de Río",
+    "departamento": "Boyacá",
+    "cod_mpio": "15537",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Pesca",
+    "departamento": "Boyacá",
+    "cod_mpio": "15542",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Pisba",
+    "departamento": "Boyacá",
+    "cod_mpio": "15550",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Puerto Boyacá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15572",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Quípama",
+    "departamento": "Boyacá",
+    "cod_mpio": "15580",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Ramiriquí",
+    "departamento": "Boyacá",
+    "cod_mpio": "15599",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Ráquira",
+    "departamento": "Boyacá",
+    "cod_mpio": "15600",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Rondón",
+    "departamento": "Boyacá",
+    "cod_mpio": "15621",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Saboyá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15632",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Sáchica",
+    "departamento": "Boyacá",
+    "cod_mpio": "15638",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Samacá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15646",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "San Eduardo",
+    "departamento": "Boyacá",
+    "cod_mpio": "15660",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "San José de Pare",
+    "departamento": "Boyacá",
+    "cod_mpio": "15664",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "San Luis de Gaceno",
+    "departamento": "Boyacá",
+    "cod_mpio": "15667",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "San Mateo",
+    "departamento": "Boyacá",
+    "cod_mpio": "15673",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "San Miguel de Sema",
+    "departamento": "Boyacá",
+    "cod_mpio": "15676",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "San Pablo de Borbur",
+    "departamento": "Boyacá",
+    "cod_mpio": "15681",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Santana",
+    "departamento": "Boyacá",
+    "cod_mpio": "15686",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Santa María",
+    "departamento": "Boyacá",
+    "cod_mpio": "15690",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Santa Rosa de Viterbo",
+    "departamento": "Boyacá",
+    "cod_mpio": "15693",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Santa Sofía",
+    "departamento": "Boyacá",
+    "cod_mpio": "15696",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Sativanorte",
+    "departamento": "Boyacá",
+    "cod_mpio": "15720",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Sativasur",
+    "departamento": "Boyacá",
+    "cod_mpio": "15723",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Siachoque",
+    "departamento": "Boyacá",
+    "cod_mpio": "15740",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Soatá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15753",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Socotá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15755",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Socha",
+    "departamento": "Boyacá",
+    "cod_mpio": "15757",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Sogamoso",
+    "departamento": "Boyacá",
+    "cod_mpio": "15759",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Somondoco",
+    "departamento": "Boyacá",
+    "cod_mpio": "15761",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Sora",
+    "departamento": "Boyacá",
+    "cod_mpio": "15762",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Sotaquirá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15763",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Soracá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15764",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Susacón",
+    "departamento": "Boyacá",
+    "cod_mpio": "15774",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Sutamarchán",
+    "departamento": "Boyacá",
+    "cod_mpio": "15776",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Sutatenza",
+    "departamento": "Boyacá",
+    "cod_mpio": "15778",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Tasco",
+    "departamento": "Boyacá",
+    "cod_mpio": "15790",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Tenza",
+    "departamento": "Boyacá",
+    "cod_mpio": "15798",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Tibaná",
+    "departamento": "Boyacá",
+    "cod_mpio": "15804",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Tibasosa",
+    "departamento": "Boyacá",
+    "cod_mpio": "15806",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Tinjacá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15808",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Tipacoque",
+    "departamento": "Boyacá",
+    "cod_mpio": "15810",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Toca",
+    "departamento": "Boyacá",
+    "cod_mpio": "15814",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Togüí",
+    "departamento": "Boyacá",
+    "cod_mpio": "15816",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Tópaga",
+    "departamento": "Boyacá",
+    "cod_mpio": "15820",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Tota",
+    "departamento": "Boyacá",
+    "cod_mpio": "15822",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Tununguá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15832",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Turmequé",
+    "departamento": "Boyacá",
+    "cod_mpio": "15835",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Tuta",
+    "departamento": "Boyacá",
+    "cod_mpio": "15837",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Tutazá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15839",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Úmbita",
+    "departamento": "Boyacá",
+    "cod_mpio": "15842",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Ventaquemada",
+    "departamento": "Boyacá",
+    "cod_mpio": "15861",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Viracachá",
+    "departamento": "Boyacá",
+    "cod_mpio": "15879",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Zetaquira",
+    "departamento": "Boyacá",
+    "cod_mpio": "15897",
+    "cod_dpto": "15"
+  },
+  {
+    "ciudad": "Manizales",
+    "departamento": "Caldas",
+    "cod_mpio": "17001",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Aguadas",
+    "departamento": "Caldas",
+    "cod_mpio": "17013",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Anserma",
+    "departamento": "Caldas",
+    "cod_mpio": "17042",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Aranzazu",
+    "departamento": "Caldas",
+    "cod_mpio": "17050",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Belalcázar",
+    "departamento": "Caldas",
+    "cod_mpio": "17088",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Chinchiná",
+    "departamento": "Caldas",
+    "cod_mpio": "17174",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Filadelfia",
+    "departamento": "Caldas",
+    "cod_mpio": "17272",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "La Dorada",
+    "departamento": "Caldas",
+    "cod_mpio": "17380",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "La Merced",
+    "departamento": "Caldas",
+    "cod_mpio": "17388",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Manzanares",
+    "departamento": "Caldas",
+    "cod_mpio": "17433",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Marmato",
+    "departamento": "Caldas",
+    "cod_mpio": "17442",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Marquetalia",
+    "departamento": "Caldas",
+    "cod_mpio": "17444",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Marulanda",
+    "departamento": "Caldas",
+    "cod_mpio": "17446",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Neira",
+    "departamento": "Caldas",
+    "cod_mpio": "17486",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Norcasia",
+    "departamento": "Caldas",
+    "cod_mpio": "17495",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Pácora",
+    "departamento": "Caldas",
+    "cod_mpio": "17513",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Palestina",
+    "departamento": "Caldas",
+    "cod_mpio": "17524",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Pensilvania",
+    "departamento": "Caldas",
+    "cod_mpio": "17541",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Riosucio",
+    "departamento": "Caldas",
+    "cod_mpio": "17614",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Risaralda",
+    "departamento": "Caldas",
+    "cod_mpio": "17616",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Salamina",
+    "departamento": "Caldas",
+    "cod_mpio": "17653",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Samaná",
+    "departamento": "Caldas",
+    "cod_mpio": "17662",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "San José",
+    "departamento": "Caldas",
+    "cod_mpio": "17665",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Supía",
+    "departamento": "Caldas",
+    "cod_mpio": "17777",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Victoria",
+    "departamento": "Caldas",
+    "cod_mpio": "17867",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Villamaría",
+    "departamento": "Caldas",
+    "cod_mpio": "17873",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Viterbo",
+    "departamento": "Caldas",
+    "cod_mpio": "17877",
+    "cod_dpto": "17"
+  },
+  {
+    "ciudad": "Florencia",
+    "departamento": "Caquetá",
+    "cod_mpio": "18001",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "Albania",
+    "departamento": "Caquetá",
+    "cod_mpio": "18029",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "Belén de los Andaquíes",
+    "departamento": "Caquetá",
+    "cod_mpio": "18094",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "Cartagena del Chairá",
+    "departamento": "Caquetá",
+    "cod_mpio": "18150",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "Curillo",
+    "departamento": "Caquetá",
+    "cod_mpio": "18205",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "El Doncello",
+    "departamento": "Caquetá",
+    "cod_mpio": "18247",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "El Paujíl",
+    "departamento": "Caquetá",
+    "cod_mpio": "18256",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "La Montañita",
+    "departamento": "Caquetá",
+    "cod_mpio": "18410",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "Milán",
+    "departamento": "Caquetá",
+    "cod_mpio": "18460",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "Morelia",
+    "departamento": "Caquetá",
+    "cod_mpio": "18479",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "Puerto Rico",
+    "departamento": "Caquetá",
+    "cod_mpio": "18592",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "San José del Fragua",
+    "departamento": "Caquetá",
+    "cod_mpio": "18610",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "San Vicente del Caguán",
+    "departamento": "Caquetá",
+    "cod_mpio": "18753",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "Solano",
+    "departamento": "Caquetá",
+    "cod_mpio": "18756",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "Solita",
+    "departamento": "Caquetá",
+    "cod_mpio": "18785",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "Valparaíso",
+    "departamento": "Caquetá",
+    "cod_mpio": "18860",
+    "cod_dpto": "18"
+  },
+  {
+    "ciudad": "Popayán",
+    "departamento": "Cauca",
+    "cod_mpio": "19001",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Almaguer",
+    "departamento": "Cauca",
+    "cod_mpio": "19022",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Argelia",
+    "departamento": "Cauca",
+    "cod_mpio": "19050",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Balboa",
+    "departamento": "Cauca",
+    "cod_mpio": "19075",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Bolívar",
+    "departamento": "Cauca",
+    "cod_mpio": "19100",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Buenos Aires",
+    "departamento": "Cauca",
+    "cod_mpio": "19110",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Cajibío",
+    "departamento": "Cauca",
+    "cod_mpio": "19130",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Caldono",
+    "departamento": "Cauca",
+    "cod_mpio": "19137",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Caloto",
+    "departamento": "Cauca",
+    "cod_mpio": "19142",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Corinto",
+    "departamento": "Cauca",
+    "cod_mpio": "19212",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "El Tambo",
+    "departamento": "Cauca",
+    "cod_mpio": "19256",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Florencia",
+    "departamento": "Cauca",
+    "cod_mpio": "19290",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Guachené",
+    "departamento": "Cauca",
+    "cod_mpio": "19300",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Guapi",
+    "departamento": "Cauca",
+    "cod_mpio": "19318",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Inzá",
+    "departamento": "Cauca",
+    "cod_mpio": "19355",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Jambaló",
+    "departamento": "Cauca",
+    "cod_mpio": "19364",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "La Sierra",
+    "departamento": "Cauca",
+    "cod_mpio": "19392",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "La Vega",
+    "departamento": "Cauca",
+    "cod_mpio": "19397",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "López de Micay",
+    "departamento": "Cauca",
+    "cod_mpio": "19418",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Mercaderes",
+    "departamento": "Cauca",
+    "cod_mpio": "19450",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Miranda",
+    "departamento": "Cauca",
+    "cod_mpio": "19455",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Morales",
+    "departamento": "Cauca",
+    "cod_mpio": "19473",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Padilla",
+    "departamento": "Cauca",
+    "cod_mpio": "19513",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Páez",
+    "departamento": "Cauca",
+    "cod_mpio": "19517",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Patía",
+    "departamento": "Cauca",
+    "cod_mpio": "19532",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Piamonte",
+    "departamento": "Cauca",
+    "cod_mpio": "19533",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Piendamó - Tunía",
+    "departamento": "Cauca",
+    "cod_mpio": "19548",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Puerto Tejada",
+    "departamento": "Cauca",
+    "cod_mpio": "19573",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Puracé",
+    "departamento": "Cauca",
+    "cod_mpio": "19585",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Rosas",
+    "departamento": "Cauca",
+    "cod_mpio": "19622",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "San Sebastián",
+    "departamento": "Cauca",
+    "cod_mpio": "19693",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Santander de Quilichao",
+    "departamento": "Cauca",
+    "cod_mpio": "19698",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Santa Rosa",
+    "departamento": "Cauca",
+    "cod_mpio": "19701",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Silvia",
+    "departamento": "Cauca",
+    "cod_mpio": "19743",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Sotará Paispamba",
+    "departamento": "Cauca",
+    "cod_mpio": "19760",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Suárez",
+    "departamento": "Cauca",
+    "cod_mpio": "19780",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Sucre",
+    "departamento": "Cauca",
+    "cod_mpio": "19785",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Timbío",
+    "departamento": "Cauca",
+    "cod_mpio": "19807",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Timbiquí",
+    "departamento": "Cauca",
+    "cod_mpio": "19809",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Toribío",
+    "departamento": "Cauca",
+    "cod_mpio": "19821",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Totoró",
+    "departamento": "Cauca",
+    "cod_mpio": "19824",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Villa Rica",
+    "departamento": "Cauca",
+    "cod_mpio": "19845",
+    "cod_dpto": "19"
+  },
+  {
+    "ciudad": "Valledupar",
+    "departamento": "Cesar",
+    "cod_mpio": "20001",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Aguachica",
+    "departamento": "Cesar",
+    "cod_mpio": "20011",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Agustín Codazzi",
+    "departamento": "Cesar",
+    "cod_mpio": "20013",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Astrea",
+    "departamento": "Cesar",
+    "cod_mpio": "20032",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Becerril",
+    "departamento": "Cesar",
+    "cod_mpio": "20045",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Bosconia",
+    "departamento": "Cesar",
+    "cod_mpio": "20060",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Chimichagua",
+    "departamento": "Cesar",
+    "cod_mpio": "20175",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Chiriguaná",
+    "departamento": "Cesar",
+    "cod_mpio": "20178",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Curumaní",
+    "departamento": "Cesar",
+    "cod_mpio": "20228",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "El Copey",
+    "departamento": "Cesar",
+    "cod_mpio": "20238",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "El Paso",
+    "departamento": "Cesar",
+    "cod_mpio": "20250",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Gamarra",
+    "departamento": "Cesar",
+    "cod_mpio": "20295",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "González",
+    "departamento": "Cesar",
+    "cod_mpio": "20310",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "La Gloria",
+    "departamento": "Cesar",
+    "cod_mpio": "20383",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "La Jagua de Ibirico",
+    "departamento": "Cesar",
+    "cod_mpio": "20400",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Manaure Balcón del Cesar",
+    "departamento": "Cesar",
+    "cod_mpio": "20443",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Pailitas",
+    "departamento": "Cesar",
+    "cod_mpio": "20517",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Pelaya",
+    "departamento": "Cesar",
+    "cod_mpio": "20550",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Pueblo Bello",
+    "departamento": "Cesar",
+    "cod_mpio": "20570",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Río de Oro",
+    "departamento": "Cesar",
+    "cod_mpio": "20614",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "La Paz",
+    "departamento": "Cesar",
+    "cod_mpio": "20621",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "San Alberto",
+    "departamento": "Cesar",
+    "cod_mpio": "20710",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "San Diego",
+    "departamento": "Cesar",
+    "cod_mpio": "20750",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "San Martín",
+    "departamento": "Cesar",
+    "cod_mpio": "20770",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Tamalameque",
+    "departamento": "Cesar",
+    "cod_mpio": "20787",
+    "cod_dpto": "20"
+  },
+  {
+    "ciudad": "Montería",
+    "departamento": "Córdoba",
+    "cod_mpio": "23001",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Ayapel",
+    "departamento": "Córdoba",
+    "cod_mpio": "23068",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Buenavista",
+    "departamento": "Córdoba",
+    "cod_mpio": "23079",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Canalete",
+    "departamento": "Córdoba",
+    "cod_mpio": "23090",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Cereté",
+    "departamento": "Córdoba",
+    "cod_mpio": "23162",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Chimá",
+    "departamento": "Córdoba",
+    "cod_mpio": "23168",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Chinú",
+    "departamento": "Córdoba",
+    "cod_mpio": "23182",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Ciénaga de Oro",
+    "departamento": "Córdoba",
+    "cod_mpio": "23189",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Cotorra",
+    "departamento": "Córdoba",
+    "cod_mpio": "23300",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "La Apartada",
+    "departamento": "Córdoba",
+    "cod_mpio": "23350",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Lorica",
+    "departamento": "Córdoba",
+    "cod_mpio": "23417",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Los Córdobas",
+    "departamento": "Córdoba",
+    "cod_mpio": "23419",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Momil",
+    "departamento": "Córdoba",
+    "cod_mpio": "23464",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Montelíbano",
+    "departamento": "Córdoba",
+    "cod_mpio": "23466",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Moñitos",
+    "departamento": "Córdoba",
+    "cod_mpio": "23500",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Planeta Rica",
+    "departamento": "Córdoba",
+    "cod_mpio": "23555",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Pueblo Nuevo",
+    "departamento": "Córdoba",
+    "cod_mpio": "23570",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Puerto Escondido",
+    "departamento": "Córdoba",
+    "cod_mpio": "23574",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Puerto Libertador",
+    "departamento": "Córdoba",
+    "cod_mpio": "23580",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Purísima de la Concepción",
+    "departamento": "Córdoba",
+    "cod_mpio": "23586",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Sahagún",
+    "departamento": "Córdoba",
+    "cod_mpio": "23660",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "San Andrés de Sotavento",
+    "departamento": "Córdoba",
+    "cod_mpio": "23670",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "San Antero",
+    "departamento": "Córdoba",
+    "cod_mpio": "23672",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "San Bernardo del Viento",
+    "departamento": "Córdoba",
+    "cod_mpio": "23675",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "San Carlos",
+    "departamento": "Córdoba",
+    "cod_mpio": "23678",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "San José de Uré",
+    "departamento": "Córdoba",
+    "cod_mpio": "23682",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "San Pelayo",
+    "departamento": "Córdoba",
+    "cod_mpio": "23686",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Tierralta",
+    "departamento": "Córdoba",
+    "cod_mpio": "23807",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Tuchín",
+    "departamento": "Córdoba",
+    "cod_mpio": "23815",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Valencia",
+    "departamento": "Córdoba",
+    "cod_mpio": "23855",
+    "cod_dpto": "23"
+  },
+  {
+    "ciudad": "Agua de Dios",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25001",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Albán",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25019",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Anapoima",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25035",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Anolaima",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25040",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Arbeláez",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25053",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Beltrán",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25086",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Bituima",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25095",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Bojacá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25099",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Cabrera",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25120",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Cachipay",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25123",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Cajicá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25126",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Caparrapí",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25148",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Cáqueza",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25151",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Carmen de Carupa",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25154",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Chaguaní",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25168",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Chía",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25175",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Chipaque",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25178",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Choachí",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25181",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Chocontá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25183",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Cogua",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25200",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Cota",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25214",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Cucunubá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25224",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "El Colegio",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25245",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "El Peñón",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25258",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "El Rosal",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25260",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Facatativá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25269",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Fómeque",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25279",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Fosca",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25281",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Funza",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25286",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Fúquene",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25288",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Fusagasugá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25290",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Gachalá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25293",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Gachancipá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25295",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Gachetá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25297",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Gama",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25299",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Girardot",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25307",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Granada",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25312",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Guachetá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25317",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Guaduas",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25320",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Guasca",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25322",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Guataquí",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25324",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Guatavita",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25326",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Guayabal de Síquima",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25328",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Guayabetal",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25335",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Gutiérrez",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25339",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Jerusalén",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25368",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Junín",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25372",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "La Calera",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25377",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "La Mesa",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25386",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "La Palma",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25394",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "La Peña",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25398",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "La Vega",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25402",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Lenguazaque",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25407",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Machetá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25426",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Madrid",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25430",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Manta",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25436",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Medina",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25438",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Mosquera",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25473",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Nariño",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25483",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Nemocón",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25486",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Nilo",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25488",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Nimaima",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25489",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Nocaima",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25491",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Venecia",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25506",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Pacho",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25513",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Paime",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25518",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Pandi",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25524",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Paratebueno",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25530",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Pasca",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25535",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Puerto Salgar",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25572",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Pulí",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25580",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Quebradanegra",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25592",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Quetame",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25594",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Quipile",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25596",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Apulo",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25599",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Ricaurte",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25612",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "San Antonio del Tequendama",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25645",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "San Bernardo",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25649",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "San Cayetano",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25653",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "San Francisco",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25658",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "San Juan de Rioseco",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25662",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Sasaima",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25718",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Sesquilé",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25736",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Sibaté",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25740",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Silvania",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25743",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Simijaca",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25745",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Soacha",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25754",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Sopó",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25758",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Subachoque",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25769",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Suesca",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25772",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Supatá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25777",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Susa",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25779",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Sutatausa",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25781",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Tabio",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25785",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Tausa",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25793",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Tena",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25797",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Tenjo",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25799",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Tibacuy",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25805",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Tibirita",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25807",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Tocaima",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25815",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Tocancipá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25817",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Topaipí",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25823",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Ubalá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25839",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Ubaque",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25841",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Villa de San Diego de Ubaté",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25843",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Une",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25845",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Útica",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25851",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Vergara",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25862",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Vianí",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25867",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Villagómez",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25871",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Villapinzón",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25873",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Villeta",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25875",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Viotá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25878",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Yacopí",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25885",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Zipacón",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25898",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Zipaquirá",
+    "departamento": "Cundinamarca",
+    "cod_mpio": "25899",
+    "cod_dpto": "25"
+  },
+  {
+    "ciudad": "Quibdó",
+    "departamento": "Chocó",
+    "cod_mpio": "27001",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Acandí",
+    "departamento": "Chocó",
+    "cod_mpio": "27006",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Alto Baudó",
+    "departamento": "Chocó",
+    "cod_mpio": "27025",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Atrato",
+    "departamento": "Chocó",
+    "cod_mpio": "27050",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Bagadó",
+    "departamento": "Chocó",
+    "cod_mpio": "27073",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Bahía Solano",
+    "departamento": "Chocó",
+    "cod_mpio": "27075",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Bajo Baudó",
+    "departamento": "Chocó",
+    "cod_mpio": "27077",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Bojayá",
+    "departamento": "Chocó",
+    "cod_mpio": "27099",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "El Cantón del San Pablo",
+    "departamento": "Chocó",
+    "cod_mpio": "27135",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Carmen del Darién",
+    "departamento": "Chocó",
+    "cod_mpio": "27150",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Cértegui",
+    "departamento": "Chocó",
+    "cod_mpio": "27160",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Condoto",
+    "departamento": "Chocó",
+    "cod_mpio": "27205",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "El Carmen de Atrato",
+    "departamento": "Chocó",
+    "cod_mpio": "27245",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "El Litoral del San Juan",
+    "departamento": "Chocó",
+    "cod_mpio": "27250",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Istmina",
+    "departamento": "Chocó",
+    "cod_mpio": "27361",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Juradó",
+    "departamento": "Chocó",
+    "cod_mpio": "27372",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Lloró",
+    "departamento": "Chocó",
+    "cod_mpio": "27413",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Medio Atrato",
+    "departamento": "Chocó",
+    "cod_mpio": "27425",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Medio Baudó",
+    "departamento": "Chocó",
+    "cod_mpio": "27430",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Medio San Juan",
+    "departamento": "Chocó",
+    "cod_mpio": "27450",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Nóvita",
+    "departamento": "Chocó",
+    "cod_mpio": "27491",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Nuevo Belén de Bajirá",
+    "departamento": "Chocó",
+    "cod_mpio": "27493",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Nuquí",
+    "departamento": "Chocó",
+    "cod_mpio": "27495",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Río Iró",
+    "departamento": "Chocó",
+    "cod_mpio": "27580",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Río Quito",
+    "departamento": "Chocó",
+    "cod_mpio": "27600",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Riosucio",
+    "departamento": "Chocó",
+    "cod_mpio": "27615",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "San José del Palmar",
+    "departamento": "Chocó",
+    "cod_mpio": "27660",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Sipí",
+    "departamento": "Chocó",
+    "cod_mpio": "27745",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Tadó",
+    "departamento": "Chocó",
+    "cod_mpio": "27787",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Unguía",
+    "departamento": "Chocó",
+    "cod_mpio": "27800",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Unión Panamericana",
+    "departamento": "Chocó",
+    "cod_mpio": "27810",
+    "cod_dpto": "27"
+  },
+  {
+    "ciudad": "Neiva",
+    "departamento": "Huila",
+    "cod_mpio": "41001",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Acevedo",
+    "departamento": "Huila",
+    "cod_mpio": "41006",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Agrado",
+    "departamento": "Huila",
+    "cod_mpio": "41013",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Aipe",
+    "departamento": "Huila",
+    "cod_mpio": "41016",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Algeciras",
+    "departamento": "Huila",
+    "cod_mpio": "41020",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Altamira",
+    "departamento": "Huila",
+    "cod_mpio": "41026",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Baraya",
+    "departamento": "Huila",
+    "cod_mpio": "41078",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Campoalegre",
+    "departamento": "Huila",
+    "cod_mpio": "41132",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Colombia",
+    "departamento": "Huila",
+    "cod_mpio": "41206",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Elías",
+    "departamento": "Huila",
+    "cod_mpio": "41244",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Garzón",
+    "departamento": "Huila",
+    "cod_mpio": "41298",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Gigante",
+    "departamento": "Huila",
+    "cod_mpio": "41306",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Guadalupe",
+    "departamento": "Huila",
+    "cod_mpio": "41319",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Hobo",
+    "departamento": "Huila",
+    "cod_mpio": "41349",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Íquira",
+    "departamento": "Huila",
+    "cod_mpio": "41357",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Isnos",
+    "departamento": "Huila",
+    "cod_mpio": "41359",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "La Argentina",
+    "departamento": "Huila",
+    "cod_mpio": "41378",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "La Plata",
+    "departamento": "Huila",
+    "cod_mpio": "41396",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Nátaga",
+    "departamento": "Huila",
+    "cod_mpio": "41483",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Oporapa",
+    "departamento": "Huila",
+    "cod_mpio": "41503",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Paicol",
+    "departamento": "Huila",
+    "cod_mpio": "41518",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Palermo",
+    "departamento": "Huila",
+    "cod_mpio": "41524",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Palestina",
+    "departamento": "Huila",
+    "cod_mpio": "41530",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Pital",
+    "departamento": "Huila",
+    "cod_mpio": "41548",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Pitalito",
+    "departamento": "Huila",
+    "cod_mpio": "41551",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Rivera",
+    "departamento": "Huila",
+    "cod_mpio": "41615",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Saladoblanco",
+    "departamento": "Huila",
+    "cod_mpio": "41660",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "San Agustín",
+    "departamento": "Huila",
+    "cod_mpio": "41668",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Santa María",
+    "departamento": "Huila",
+    "cod_mpio": "41676",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Suaza",
+    "departamento": "Huila",
+    "cod_mpio": "41770",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Tarqui",
+    "departamento": "Huila",
+    "cod_mpio": "41791",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Tesalia",
+    "departamento": "Huila",
+    "cod_mpio": "41797",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Tello",
+    "departamento": "Huila",
+    "cod_mpio": "41799",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Teruel",
+    "departamento": "Huila",
+    "cod_mpio": "41801",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Timaná",
+    "departamento": "Huila",
+    "cod_mpio": "41807",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Villavieja",
+    "departamento": "Huila",
+    "cod_mpio": "41872",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Yaguará",
+    "departamento": "Huila",
+    "cod_mpio": "41885",
+    "cod_dpto": "41"
+  },
+  {
+    "ciudad": "Riohacha",
+    "departamento": "La Guajira",
+    "cod_mpio": "44001",
+    "cod_dpto": "44"
+  },
+  {
+    "ciudad": "Albania",
+    "departamento": "La Guajira",
+    "cod_mpio": "44035",
+    "cod_dpto": "44"
+  },
+  {
+    "ciudad": "Barrancas",
+    "departamento": "La Guajira",
+    "cod_mpio": "44078",
+    "cod_dpto": "44"
+  },
+  {
+    "ciudad": "Dibulla",
+    "departamento": "La Guajira",
+    "cod_mpio": "44090",
+    "cod_dpto": "44"
+  },
+  {
+    "ciudad": "Distracción",
+    "departamento": "La Guajira",
+    "cod_mpio": "44098",
+    "cod_dpto": "44"
+  },
+  {
+    "ciudad": "El Molino",
+    "departamento": "La Guajira",
+    "cod_mpio": "44110",
+    "cod_dpto": "44"
+  },
+  {
+    "ciudad": "Fonseca",
+    "departamento": "La Guajira",
+    "cod_mpio": "44279",
+    "cod_dpto": "44"
+  },
+  {
+    "ciudad": "Hatonuevo",
+    "departamento": "La Guajira",
+    "cod_mpio": "44378",
+    "cod_dpto": "44"
+  },
+  {
+    "ciudad": "La Jagua del Pilar",
+    "departamento": "La Guajira",
+    "cod_mpio": "44420",
+    "cod_dpto": "44"
+  },
+  {
+    "ciudad": "Maicao",
+    "departamento": "La Guajira",
+    "cod_mpio": "44430",
+    "cod_dpto": "44"
+  },
+  {
+    "ciudad": "Manaure",
+    "departamento": "La Guajira",
+    "cod_mpio": "44560",
+    "cod_dpto": "44"
+  },
+  {
+    "ciudad": "San Juan del Cesar",
+    "departamento": "La Guajira",
+    "cod_mpio": "44650",
+    "cod_dpto": "44"
+  },
+  {
+    "ciudad": "Uribia",
+    "departamento": "La Guajira",
+    "cod_mpio": "44847",
+    "cod_dpto": "44"
+  },
+  {
+    "ciudad": "Urumita",
+    "departamento": "La Guajira",
+    "cod_mpio": "44855",
+    "cod_dpto": "44"
+  },
+  {
+    "ciudad": "Villanueva",
+    "departamento": "La Guajira",
+    "cod_mpio": "44874",
+    "cod_dpto": "44"
+  },
+  {
+    "ciudad": "Santa Marta",
+    "departamento": "Magdalena",
+    "cod_mpio": "47001",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Algarrobo",
+    "departamento": "Magdalena",
+    "cod_mpio": "47030",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Aracataca",
+    "departamento": "Magdalena",
+    "cod_mpio": "47053",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Ariguaní",
+    "departamento": "Magdalena",
+    "cod_mpio": "47058",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Cerro de San Antonio",
+    "departamento": "Magdalena",
+    "cod_mpio": "47161",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Chivolo",
+    "departamento": "Magdalena",
+    "cod_mpio": "47170",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Ciénaga",
+    "departamento": "Magdalena",
+    "cod_mpio": "47189",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Concordia",
+    "departamento": "Magdalena",
+    "cod_mpio": "47205",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "El Banco",
+    "departamento": "Magdalena",
+    "cod_mpio": "47245",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "El Piñón",
+    "departamento": "Magdalena",
+    "cod_mpio": "47258",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "El Retén",
+    "departamento": "Magdalena",
+    "cod_mpio": "47268",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Fundación",
+    "departamento": "Magdalena",
+    "cod_mpio": "47288",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Guamal",
+    "departamento": "Magdalena",
+    "cod_mpio": "47318",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Nueva Granada",
+    "departamento": "Magdalena",
+    "cod_mpio": "47460",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Pedraza",
+    "departamento": "Magdalena",
+    "cod_mpio": "47541",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Pijiño del Carmen",
+    "departamento": "Magdalena",
+    "cod_mpio": "47545",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Pivijay",
+    "departamento": "Magdalena",
+    "cod_mpio": "47551",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Plato",
+    "departamento": "Magdalena",
+    "cod_mpio": "47555",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Puebloviejo",
+    "departamento": "Magdalena",
+    "cod_mpio": "47570",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Remolino",
+    "departamento": "Magdalena",
+    "cod_mpio": "47605",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Sabanas de San Ángel",
+    "departamento": "Magdalena",
+    "cod_mpio": "47660",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Salamina",
+    "departamento": "Magdalena",
+    "cod_mpio": "47675",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "San Sebastián de Buenavista",
+    "departamento": "Magdalena",
+    "cod_mpio": "47692",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "San Zenón",
+    "departamento": "Magdalena",
+    "cod_mpio": "47703",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Santa Ana",
+    "departamento": "Magdalena",
+    "cod_mpio": "47707",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Santa Bárbara de Pinto",
+    "departamento": "Magdalena",
+    "cod_mpio": "47720",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Sitionuevo",
+    "departamento": "Magdalena",
+    "cod_mpio": "47745",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Tenerife",
+    "departamento": "Magdalena",
+    "cod_mpio": "47798",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Zapayán",
+    "departamento": "Magdalena",
+    "cod_mpio": "47960",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Zona Bananera",
+    "departamento": "Magdalena",
+    "cod_mpio": "47980",
+    "cod_dpto": "47"
+  },
+  {
+    "ciudad": "Villavicencio",
+    "departamento": "Meta",
+    "cod_mpio": "50001",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Acacías",
+    "departamento": "Meta",
+    "cod_mpio": "50006",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Barranca de Upía",
+    "departamento": "Meta",
+    "cod_mpio": "50110",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Cabuyaro",
+    "departamento": "Meta",
+    "cod_mpio": "50124",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Castilla la Nueva",
+    "departamento": "Meta",
+    "cod_mpio": "50150",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Cubarral",
+    "departamento": "Meta",
+    "cod_mpio": "50223",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Cumaral",
+    "departamento": "Meta",
+    "cod_mpio": "50226",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "El Calvario",
+    "departamento": "Meta",
+    "cod_mpio": "50245",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "El Castillo",
+    "departamento": "Meta",
+    "cod_mpio": "50251",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "El Dorado",
+    "departamento": "Meta",
+    "cod_mpio": "50270",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Fuente de Oro",
+    "departamento": "Meta",
+    "cod_mpio": "50287",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Granada",
+    "departamento": "Meta",
+    "cod_mpio": "50313",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Guamal",
+    "departamento": "Meta",
+    "cod_mpio": "50318",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Mapiripán",
+    "departamento": "Meta",
+    "cod_mpio": "50325",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Mesetas",
+    "departamento": "Meta",
+    "cod_mpio": "50330",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "La Macarena",
+    "departamento": "Meta",
+    "cod_mpio": "50350",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Uribe",
+    "departamento": "Meta",
+    "cod_mpio": "50370",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Lejanías",
+    "departamento": "Meta",
+    "cod_mpio": "50400",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Puerto Concordia",
+    "departamento": "Meta",
+    "cod_mpio": "50450",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Puerto Gaitán",
+    "departamento": "Meta",
+    "cod_mpio": "50568",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Puerto López",
+    "departamento": "Meta",
+    "cod_mpio": "50573",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Puerto Lleras",
+    "departamento": "Meta",
+    "cod_mpio": "50577",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Puerto Rico",
+    "departamento": "Meta",
+    "cod_mpio": "50590",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Restrepo",
+    "departamento": "Meta",
+    "cod_mpio": "50606",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "San Carlos de Guaroa",
+    "departamento": "Meta",
+    "cod_mpio": "50680",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "San Juan de Arama",
+    "departamento": "Meta",
+    "cod_mpio": "50683",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "San Juanito",
+    "departamento": "Meta",
+    "cod_mpio": "50686",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "San Martín",
+    "departamento": "Meta",
+    "cod_mpio": "50689",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Vistahermosa",
+    "departamento": "Meta",
+    "cod_mpio": "50711",
+    "cod_dpto": "50"
+  },
+  {
+    "ciudad": "Pasto",
+    "departamento": "Nariño",
+    "cod_mpio": "52001",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Albán",
+    "departamento": "Nariño",
+    "cod_mpio": "52019",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Aldana",
+    "departamento": "Nariño",
+    "cod_mpio": "52022",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Ancuya",
+    "departamento": "Nariño",
+    "cod_mpio": "52036",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Arboleda",
+    "departamento": "Nariño",
+    "cod_mpio": "52051",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Barbacoas",
+    "departamento": "Nariño",
+    "cod_mpio": "52079",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Belén",
+    "departamento": "Nariño",
+    "cod_mpio": "52083",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Buesaco",
+    "departamento": "Nariño",
+    "cod_mpio": "52110",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Colón",
+    "departamento": "Nariño",
+    "cod_mpio": "52203",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Consacá",
+    "departamento": "Nariño",
+    "cod_mpio": "52207",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Contadero",
+    "departamento": "Nariño",
+    "cod_mpio": "52210",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Córdoba",
+    "departamento": "Nariño",
+    "cod_mpio": "52215",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Cuaspud Carlosama",
+    "departamento": "Nariño",
+    "cod_mpio": "52224",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Cumbal",
+    "departamento": "Nariño",
+    "cod_mpio": "52227",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Cumbitara",
+    "departamento": "Nariño",
+    "cod_mpio": "52233",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Chachagüí",
+    "departamento": "Nariño",
+    "cod_mpio": "52240",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "El Charco",
+    "departamento": "Nariño",
+    "cod_mpio": "52250",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "El Peñol",
+    "departamento": "Nariño",
+    "cod_mpio": "52254",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "El Rosario",
+    "departamento": "Nariño",
+    "cod_mpio": "52256",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "El Tablón de Gómez",
+    "departamento": "Nariño",
+    "cod_mpio": "52258",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "El Tambo",
+    "departamento": "Nariño",
+    "cod_mpio": "52260",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Funes",
+    "departamento": "Nariño",
+    "cod_mpio": "52287",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Guachucal",
+    "departamento": "Nariño",
+    "cod_mpio": "52317",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Guaitarilla",
+    "departamento": "Nariño",
+    "cod_mpio": "52320",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Gualmatán",
+    "departamento": "Nariño",
+    "cod_mpio": "52323",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Iles",
+    "departamento": "Nariño",
+    "cod_mpio": "52352",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Imués",
+    "departamento": "Nariño",
+    "cod_mpio": "52354",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Ipiales",
+    "departamento": "Nariño",
+    "cod_mpio": "52356",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "La Cruz",
+    "departamento": "Nariño",
+    "cod_mpio": "52378",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "La Florida",
+    "departamento": "Nariño",
+    "cod_mpio": "52381",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "La Llanada",
+    "departamento": "Nariño",
+    "cod_mpio": "52385",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "La Tola",
+    "departamento": "Nariño",
+    "cod_mpio": "52390",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "La Unión",
+    "departamento": "Nariño",
+    "cod_mpio": "52399",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Leiva",
+    "departamento": "Nariño",
+    "cod_mpio": "52405",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Linares",
+    "departamento": "Nariño",
+    "cod_mpio": "52411",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Los Andes",
+    "departamento": "Nariño",
+    "cod_mpio": "52418",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Magüí",
+    "departamento": "Nariño",
+    "cod_mpio": "52427",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Mallama",
+    "departamento": "Nariño",
+    "cod_mpio": "52435",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Mosquera",
+    "departamento": "Nariño",
+    "cod_mpio": "52473",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Nariño",
+    "departamento": "Nariño",
+    "cod_mpio": "52480",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Olaya Herrera",
+    "departamento": "Nariño",
+    "cod_mpio": "52490",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Ospina",
+    "departamento": "Nariño",
+    "cod_mpio": "52506",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Francisco Pizarro",
+    "departamento": "Nariño",
+    "cod_mpio": "52520",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Policarpa",
+    "departamento": "Nariño",
+    "cod_mpio": "52540",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Potosí",
+    "departamento": "Nariño",
+    "cod_mpio": "52560",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Providencia",
+    "departamento": "Nariño",
+    "cod_mpio": "52565",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Puerres",
+    "departamento": "Nariño",
+    "cod_mpio": "52573",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Pupiales",
+    "departamento": "Nariño",
+    "cod_mpio": "52585",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Ricaurte",
+    "departamento": "Nariño",
+    "cod_mpio": "52612",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Roberto Payán",
+    "departamento": "Nariño",
+    "cod_mpio": "52621",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Samaniego",
+    "departamento": "Nariño",
+    "cod_mpio": "52678",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Sandoná",
+    "departamento": "Nariño",
+    "cod_mpio": "52683",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "San Bernardo",
+    "departamento": "Nariño",
+    "cod_mpio": "52685",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "San Lorenzo",
+    "departamento": "Nariño",
+    "cod_mpio": "52687",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "San Pablo",
+    "departamento": "Nariño",
+    "cod_mpio": "52693",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "San Pedro de Cartago",
+    "departamento": "Nariño",
+    "cod_mpio": "52694",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Santa Bárbara",
+    "departamento": "Nariño",
+    "cod_mpio": "52696",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Santacruz",
+    "departamento": "Nariño",
+    "cod_mpio": "52699",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Sapuyes",
+    "departamento": "Nariño",
+    "cod_mpio": "52720",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Taminango",
+    "departamento": "Nariño",
+    "cod_mpio": "52786",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Tangua",
+    "departamento": "Nariño",
+    "cod_mpio": "52788",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "San Andrés de Tumaco",
+    "departamento": "Nariño",
+    "cod_mpio": "52835",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Túquerres",
+    "departamento": "Nariño",
+    "cod_mpio": "52838",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "Yacuanquer",
+    "departamento": "Nariño",
+    "cod_mpio": "52885",
+    "cod_dpto": "52"
+  },
+  {
+    "ciudad": "San José de Cúcuta",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54001",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Ábrego",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54003",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Arboledas",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54051",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Bochalema",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54099",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Bucarasica",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54109",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Cácota",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54125",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Cáchira",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54128",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Chinácota",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54172",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Chitagá",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54174",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Convención",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54206",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Cucutilla",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54223",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Durania",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54239",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "El Carmen",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54245",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "El Tarra",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54250",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "El Zulia",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54261",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Gramalote",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54313",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Hacarí",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54344",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Herrán",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54347",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Labateca",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54377",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "La Esperanza",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54385",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "La Playa",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54398",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Los Patios",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54405",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Lourdes",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54418",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Mutiscua",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54480",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Ocaña",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54498",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Pamplona",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54518",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Pamplonita",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54520",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Puerto Santander",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54553",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Ragonvalia",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54599",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Salazar",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54660",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "San Calixto",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54670",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "San Cayetano",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54673",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Santiago",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54680",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Sardinata",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54720",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Silos",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54743",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Teorama",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54800",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Tibú",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54810",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Toledo",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54820",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Villa Caro",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54871",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Villa del Rosario",
+    "departamento": "Norte de Santander",
+    "cod_mpio": "54874",
+    "cod_dpto": "54"
+  },
+  {
+    "ciudad": "Armenia",
+    "departamento": "Quindío",
+    "cod_mpio": "63001",
+    "cod_dpto": "63"
+  },
+  {
+    "ciudad": "Buenavista",
+    "departamento": "Quindío",
+    "cod_mpio": "63111",
+    "cod_dpto": "63"
+  },
+  {
+    "ciudad": "Calarcá",
+    "departamento": "Quindío",
+    "cod_mpio": "63130",
+    "cod_dpto": "63"
+  },
+  {
+    "ciudad": "Circasia",
+    "departamento": "Quindío",
+    "cod_mpio": "63190",
+    "cod_dpto": "63"
+  },
+  {
+    "ciudad": "Córdoba",
+    "departamento": "Quindío",
+    "cod_mpio": "63212",
+    "cod_dpto": "63"
+  },
+  {
+    "ciudad": "Filandia",
+    "departamento": "Quindío",
+    "cod_mpio": "63272",
+    "cod_dpto": "63"
+  },
+  {
+    "ciudad": "Génova",
+    "departamento": "Quindío",
+    "cod_mpio": "63302",
+    "cod_dpto": "63"
+  },
+  {
+    "ciudad": "La Tebaida",
+    "departamento": "Quindío",
+    "cod_mpio": "63401",
+    "cod_dpto": "63"
+  },
+  {
+    "ciudad": "Montenegro",
+    "departamento": "Quindío",
+    "cod_mpio": "63470",
+    "cod_dpto": "63"
+  },
+  {
+    "ciudad": "Pijao",
+    "departamento": "Quindío",
+    "cod_mpio": "63548",
+    "cod_dpto": "63"
+  },
+  {
+    "ciudad": "Quimbaya",
+    "departamento": "Quindío",
+    "cod_mpio": "63594",
+    "cod_dpto": "63"
+  },
+  {
+    "ciudad": "Salento",
+    "departamento": "Quindío",
+    "cod_mpio": "63690",
+    "cod_dpto": "63"
+  },
+  {
+    "ciudad": "Pereira",
+    "departamento": "Risaralda",
+    "cod_mpio": "66001",
+    "cod_dpto": "66"
+  },
+  {
+    "ciudad": "Apía",
+    "departamento": "Risaralda",
+    "cod_mpio": "66045",
+    "cod_dpto": "66"
+  },
+  {
+    "ciudad": "Balboa",
+    "departamento": "Risaralda",
+    "cod_mpio": "66075",
+    "cod_dpto": "66"
+  },
+  {
+    "ciudad": "Belén de Umbría",
+    "departamento": "Risaralda",
+    "cod_mpio": "66088",
+    "cod_dpto": "66"
+  },
+  {
+    "ciudad": "Dosquebradas",
+    "departamento": "Risaralda",
+    "cod_mpio": "66170",
+    "cod_dpto": "66"
+  },
+  {
+    "ciudad": "Guática",
+    "departamento": "Risaralda",
+    "cod_mpio": "66318",
+    "cod_dpto": "66"
+  },
+  {
+    "ciudad": "La Celia",
+    "departamento": "Risaralda",
+    "cod_mpio": "66383",
+    "cod_dpto": "66"
+  },
+  {
+    "ciudad": "La Virginia",
+    "departamento": "Risaralda",
+    "cod_mpio": "66400",
+    "cod_dpto": "66"
+  },
+  {
+    "ciudad": "Marsella",
+    "departamento": "Risaralda",
+    "cod_mpio": "66440",
+    "cod_dpto": "66"
+  },
+  {
+    "ciudad": "Mistrató",
+    "departamento": "Risaralda",
+    "cod_mpio": "66456",
+    "cod_dpto": "66"
+  },
+  {
+    "ciudad": "Pueblo Rico",
+    "departamento": "Risaralda",
+    "cod_mpio": "66572",
+    "cod_dpto": "66"
+  },
+  {
+    "ciudad": "Quinchía",
+    "departamento": "Risaralda",
+    "cod_mpio": "66594",
+    "cod_dpto": "66"
+  },
+  {
+    "ciudad": "Santa Rosa de Cabal",
+    "departamento": "Risaralda",
+    "cod_mpio": "66682",
+    "cod_dpto": "66"
+  },
+  {
+    "ciudad": "Santuario",
+    "departamento": "Risaralda",
+    "cod_mpio": "66687",
+    "cod_dpto": "66"
+  },
+  {
+    "ciudad": "Bucaramanga",
+    "departamento": "Santander",
+    "cod_mpio": "68001",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Aguada",
+    "departamento": "Santander",
+    "cod_mpio": "68013",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Albania",
+    "departamento": "Santander",
+    "cod_mpio": "68020",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Aratoca",
+    "departamento": "Santander",
+    "cod_mpio": "68051",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Barbosa",
+    "departamento": "Santander",
+    "cod_mpio": "68077",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Barichara",
+    "departamento": "Santander",
+    "cod_mpio": "68079",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Barrancabermeja",
+    "departamento": "Santander",
+    "cod_mpio": "68081",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Betulia",
+    "departamento": "Santander",
+    "cod_mpio": "68092",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Bolívar",
+    "departamento": "Santander",
+    "cod_mpio": "68101",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Cabrera",
+    "departamento": "Santander",
+    "cod_mpio": "68121",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "California",
+    "departamento": "Santander",
+    "cod_mpio": "68132",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Capitanejo",
+    "departamento": "Santander",
+    "cod_mpio": "68147",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Carcasí",
+    "departamento": "Santander",
+    "cod_mpio": "68152",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Cepitá",
+    "departamento": "Santander",
+    "cod_mpio": "68160",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Cerrito",
+    "departamento": "Santander",
+    "cod_mpio": "68162",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Charalá",
+    "departamento": "Santander",
+    "cod_mpio": "68167",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Charta",
+    "departamento": "Santander",
+    "cod_mpio": "68169",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Chima",
+    "departamento": "Santander",
+    "cod_mpio": "68176",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Chipatá",
+    "departamento": "Santander",
+    "cod_mpio": "68179",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Cimitarra",
+    "departamento": "Santander",
+    "cod_mpio": "68190",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Concepción",
+    "departamento": "Santander",
+    "cod_mpio": "68207",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Confines",
+    "departamento": "Santander",
+    "cod_mpio": "68209",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Contratación",
+    "departamento": "Santander",
+    "cod_mpio": "68211",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Coromoro",
+    "departamento": "Santander",
+    "cod_mpio": "68217",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Curití",
+    "departamento": "Santander",
+    "cod_mpio": "68229",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "El Carmen de Chucurí",
+    "departamento": "Santander",
+    "cod_mpio": "68235",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "El Guacamayo",
+    "departamento": "Santander",
+    "cod_mpio": "68245",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "El Peñón",
+    "departamento": "Santander",
+    "cod_mpio": "68250",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "El Playón",
+    "departamento": "Santander",
+    "cod_mpio": "68255",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Encino",
+    "departamento": "Santander",
+    "cod_mpio": "68264",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Enciso",
+    "departamento": "Santander",
+    "cod_mpio": "68266",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Florián",
+    "departamento": "Santander",
+    "cod_mpio": "68271",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Floridablanca",
+    "departamento": "Santander",
+    "cod_mpio": "68276",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Galán",
+    "departamento": "Santander",
+    "cod_mpio": "68296",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Gámbita",
+    "departamento": "Santander",
+    "cod_mpio": "68298",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Girón",
+    "departamento": "Santander",
+    "cod_mpio": "68307",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Guaca",
+    "departamento": "Santander",
+    "cod_mpio": "68318",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Guadalupe",
+    "departamento": "Santander",
+    "cod_mpio": "68320",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Guapotá",
+    "departamento": "Santander",
+    "cod_mpio": "68322",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Guavatá",
+    "departamento": "Santander",
+    "cod_mpio": "68324",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Güepsa",
+    "departamento": "Santander",
+    "cod_mpio": "68327",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Hato",
+    "departamento": "Santander",
+    "cod_mpio": "68344",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Jesús María",
+    "departamento": "Santander",
+    "cod_mpio": "68368",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Jordán",
+    "departamento": "Santander",
+    "cod_mpio": "68370",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "La Belleza",
+    "departamento": "Santander",
+    "cod_mpio": "68377",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Landázuri",
+    "departamento": "Santander",
+    "cod_mpio": "68385",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "La Paz",
+    "departamento": "Santander",
+    "cod_mpio": "68397",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Lebrija",
+    "departamento": "Santander",
+    "cod_mpio": "68406",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Los Santos",
+    "departamento": "Santander",
+    "cod_mpio": "68418",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Macaravita",
+    "departamento": "Santander",
+    "cod_mpio": "68425",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Málaga",
+    "departamento": "Santander",
+    "cod_mpio": "68432",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Matanza",
+    "departamento": "Santander",
+    "cod_mpio": "68444",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Mogotes",
+    "departamento": "Santander",
+    "cod_mpio": "68464",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Molagavita",
+    "departamento": "Santander",
+    "cod_mpio": "68468",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Ocamonte",
+    "departamento": "Santander",
+    "cod_mpio": "68498",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Oiba",
+    "departamento": "Santander",
+    "cod_mpio": "68500",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Onzaga",
+    "departamento": "Santander",
+    "cod_mpio": "68502",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Palmar",
+    "departamento": "Santander",
+    "cod_mpio": "68522",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Palmas del Socorro",
+    "departamento": "Santander",
+    "cod_mpio": "68524",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Páramo",
+    "departamento": "Santander",
+    "cod_mpio": "68533",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Piedecuesta",
+    "departamento": "Santander",
+    "cod_mpio": "68547",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Pinchote",
+    "departamento": "Santander",
+    "cod_mpio": "68549",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Puente Nacional",
+    "departamento": "Santander",
+    "cod_mpio": "68572",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Puerto Parra",
+    "departamento": "Santander",
+    "cod_mpio": "68573",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Puerto Wilches",
+    "departamento": "Santander",
+    "cod_mpio": "68575",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Rionegro",
+    "departamento": "Santander",
+    "cod_mpio": "68615",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Sabana de Torres",
+    "departamento": "Santander",
+    "cod_mpio": "68655",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "San Andrés",
+    "departamento": "Santander",
+    "cod_mpio": "68669",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "San Benito",
+    "departamento": "Santander",
+    "cod_mpio": "68673",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "San Gil",
+    "departamento": "Santander",
+    "cod_mpio": "68679",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "San Joaquín",
+    "departamento": "Santander",
+    "cod_mpio": "68682",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "San José de Miranda",
+    "departamento": "Santander",
+    "cod_mpio": "68684",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "San Miguel",
+    "departamento": "Santander",
+    "cod_mpio": "68686",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "San Vicente de Chucurí",
+    "departamento": "Santander",
+    "cod_mpio": "68689",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Santa Bárbara",
+    "departamento": "Santander",
+    "cod_mpio": "68705",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Santa Helena del Opón",
+    "departamento": "Santander",
+    "cod_mpio": "68720",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Simacota",
+    "departamento": "Santander",
+    "cod_mpio": "68745",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Socorro",
+    "departamento": "Santander",
+    "cod_mpio": "68755",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Suaita",
+    "departamento": "Santander",
+    "cod_mpio": "68770",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Sucre",
+    "departamento": "Santander",
+    "cod_mpio": "68773",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Suratá",
+    "departamento": "Santander",
+    "cod_mpio": "68780",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Tona",
+    "departamento": "Santander",
+    "cod_mpio": "68820",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Valle de San José",
+    "departamento": "Santander",
+    "cod_mpio": "68855",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Vélez",
+    "departamento": "Santander",
+    "cod_mpio": "68861",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Vetas",
+    "departamento": "Santander",
+    "cod_mpio": "68867",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Villanueva",
+    "departamento": "Santander",
+    "cod_mpio": "68872",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Zapatoca",
+    "departamento": "Santander",
+    "cod_mpio": "68895",
+    "cod_dpto": "68"
+  },
+  {
+    "ciudad": "Sincelejo",
+    "departamento": "Sucre",
+    "cod_mpio": "70001",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Buenavista",
+    "departamento": "Sucre",
+    "cod_mpio": "70110",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Caimito",
+    "departamento": "Sucre",
+    "cod_mpio": "70124",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Colosó",
+    "departamento": "Sucre",
+    "cod_mpio": "70204",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Corozal",
+    "departamento": "Sucre",
+    "cod_mpio": "70215",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Coveñas",
+    "departamento": "Sucre",
+    "cod_mpio": "70221",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Chalán",
+    "departamento": "Sucre",
+    "cod_mpio": "70230",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "El Roble",
+    "departamento": "Sucre",
+    "cod_mpio": "70233",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Galeras",
+    "departamento": "Sucre",
+    "cod_mpio": "70235",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Guaranda",
+    "departamento": "Sucre",
+    "cod_mpio": "70265",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "La Unión",
+    "departamento": "Sucre",
+    "cod_mpio": "70400",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Los Palmitos",
+    "departamento": "Sucre",
+    "cod_mpio": "70418",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Majagual",
+    "departamento": "Sucre",
+    "cod_mpio": "70429",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Morroa",
+    "departamento": "Sucre",
+    "cod_mpio": "70473",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Ovejas",
+    "departamento": "Sucre",
+    "cod_mpio": "70508",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Palmito",
+    "departamento": "Sucre",
+    "cod_mpio": "70523",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Sampués",
+    "departamento": "Sucre",
+    "cod_mpio": "70670",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "San Benito Abad",
+    "departamento": "Sucre",
+    "cod_mpio": "70678",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "San Juan de Betulia",
+    "departamento": "Sucre",
+    "cod_mpio": "70702",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "San Marcos",
+    "departamento": "Sucre",
+    "cod_mpio": "70708",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "San Onofre",
+    "departamento": "Sucre",
+    "cod_mpio": "70713",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "San Pedro",
+    "departamento": "Sucre",
+    "cod_mpio": "70717",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "San Luis de Sincé",
+    "departamento": "Sucre",
+    "cod_mpio": "70742",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Sucre",
+    "departamento": "Sucre",
+    "cod_mpio": "70771",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Santiago de Tolú",
+    "departamento": "Sucre",
+    "cod_mpio": "70820",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "San José de Toluviejo",
+    "departamento": "Sucre",
+    "cod_mpio": "70823",
+    "cod_dpto": "70"
+  },
+  {
+    "ciudad": "Ibagué",
+    "departamento": "Tolima",
+    "cod_mpio": "73001",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Alpujarra",
+    "departamento": "Tolima",
+    "cod_mpio": "73024",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Alvarado",
+    "departamento": "Tolima",
+    "cod_mpio": "73026",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Ambalema",
+    "departamento": "Tolima",
+    "cod_mpio": "73030",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Anzoátegui",
+    "departamento": "Tolima",
+    "cod_mpio": "73043",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Armero",
+    "departamento": "Tolima",
+    "cod_mpio": "73055",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Ataco",
+    "departamento": "Tolima",
+    "cod_mpio": "73067",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Cajamarca",
+    "departamento": "Tolima",
+    "cod_mpio": "73124",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Carmen de Apicalá",
+    "departamento": "Tolima",
+    "cod_mpio": "73148",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Casabianca",
+    "departamento": "Tolima",
+    "cod_mpio": "73152",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Chaparral",
+    "departamento": "Tolima",
+    "cod_mpio": "73168",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Coello",
+    "departamento": "Tolima",
+    "cod_mpio": "73200",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Coyaima",
+    "departamento": "Tolima",
+    "cod_mpio": "73217",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Cunday",
+    "departamento": "Tolima",
+    "cod_mpio": "73226",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Dolores",
+    "departamento": "Tolima",
+    "cod_mpio": "73236",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Espinal",
+    "departamento": "Tolima",
+    "cod_mpio": "73268",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Falan",
+    "departamento": "Tolima",
+    "cod_mpio": "73270",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Flandes",
+    "departamento": "Tolima",
+    "cod_mpio": "73275",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Fresno",
+    "departamento": "Tolima",
+    "cod_mpio": "73283",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Guamo",
+    "departamento": "Tolima",
+    "cod_mpio": "73319",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Herveo",
+    "departamento": "Tolima",
+    "cod_mpio": "73347",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Honda",
+    "departamento": "Tolima",
+    "cod_mpio": "73349",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Icononzo",
+    "departamento": "Tolima",
+    "cod_mpio": "73352",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Lérida",
+    "departamento": "Tolima",
+    "cod_mpio": "73408",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Líbano",
+    "departamento": "Tolima",
+    "cod_mpio": "73411",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "San Sebastián de Mariquita",
+    "departamento": "Tolima",
+    "cod_mpio": "73443",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Melgar",
+    "departamento": "Tolima",
+    "cod_mpio": "73449",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Murillo",
+    "departamento": "Tolima",
+    "cod_mpio": "73461",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Natagaima",
+    "departamento": "Tolima",
+    "cod_mpio": "73483",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Ortega",
+    "departamento": "Tolima",
+    "cod_mpio": "73504",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Palocabildo",
+    "departamento": "Tolima",
+    "cod_mpio": "73520",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Piedras",
+    "departamento": "Tolima",
+    "cod_mpio": "73547",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Planadas",
+    "departamento": "Tolima",
+    "cod_mpio": "73555",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Prado",
+    "departamento": "Tolima",
+    "cod_mpio": "73563",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Purificación",
+    "departamento": "Tolima",
+    "cod_mpio": "73585",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Rioblanco",
+    "departamento": "Tolima",
+    "cod_mpio": "73616",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Roncesvalles",
+    "departamento": "Tolima",
+    "cod_mpio": "73622",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Rovira",
+    "departamento": "Tolima",
+    "cod_mpio": "73624",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Saldaña",
+    "departamento": "Tolima",
+    "cod_mpio": "73671",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "San Antonio",
+    "departamento": "Tolima",
+    "cod_mpio": "73675",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "San Luis",
+    "departamento": "Tolima",
+    "cod_mpio": "73678",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Santa Isabel",
+    "departamento": "Tolima",
+    "cod_mpio": "73686",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Suárez",
+    "departamento": "Tolima",
+    "cod_mpio": "73770",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Valle de San Juan",
+    "departamento": "Tolima",
+    "cod_mpio": "73854",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Venadillo",
+    "departamento": "Tolima",
+    "cod_mpio": "73861",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Villahermosa",
+    "departamento": "Tolima",
+    "cod_mpio": "73870",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Villarrica",
+    "departamento": "Tolima",
+    "cod_mpio": "73873",
+    "cod_dpto": "73"
+  },
+  {
+    "ciudad": "Santiago de Cali",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76001",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Alcalá",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76020",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Andalucía",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76036",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Ansermanuevo",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76041",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Argelia",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76054",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Bolívar",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76100",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Buenaventura",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76109",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Guadalajara de Buga",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76111",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Bugalagrande",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76113",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Caicedonia",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76122",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Calima",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76126",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Candelaria",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76130",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Cartago",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76147",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Dagua",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76233",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "El Águila",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76243",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "El Cairo",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76246",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "El Cerrito",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76248",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "El Dovio",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76250",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Florida",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76275",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Ginebra",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76306",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Guacarí",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76318",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Jamundí",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76364",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "La Cumbre",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76377",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "La Unión",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76400",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "La Victoria",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76403",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Obando",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76497",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Palmira",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76520",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Pradera",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76563",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Restrepo",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76606",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Riofrío",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76616",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Roldanillo",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76622",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "San Pedro",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76670",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Sevilla",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76736",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Toro",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76823",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Trujillo",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76828",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Tuluá",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76834",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Ulloa",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76845",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Versalles",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76863",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Vijes",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76869",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Yotoco",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76890",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Yumbo",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76892",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Zarzal",
+    "departamento": "Valle del Cauca",
+    "cod_mpio": "76895",
+    "cod_dpto": "76"
+  },
+  {
+    "ciudad": "Arauca",
+    "departamento": "Arauca",
+    "cod_mpio": "81001",
+    "cod_dpto": "81"
+  },
+  {
+    "ciudad": "Arauquita",
+    "departamento": "Arauca",
+    "cod_mpio": "81065",
+    "cod_dpto": "81"
+  },
+  {
+    "ciudad": "Cravo Norte",
+    "departamento": "Arauca",
+    "cod_mpio": "81220",
+    "cod_dpto": "81"
+  },
+  {
+    "ciudad": "Fortul",
+    "departamento": "Arauca",
+    "cod_mpio": "81300",
+    "cod_dpto": "81"
+  },
+  {
+    "ciudad": "Puerto Rondón",
+    "departamento": "Arauca",
+    "cod_mpio": "81591",
+    "cod_dpto": "81"
+  },
+  {
+    "ciudad": "Saravena",
+    "departamento": "Arauca",
+    "cod_mpio": "81736",
+    "cod_dpto": "81"
+  },
+  {
+    "ciudad": "Tame",
+    "departamento": "Arauca",
+    "cod_mpio": "81794",
+    "cod_dpto": "81"
+  },
+  {
+    "ciudad": "Yopal",
+    "departamento": "Casanare",
+    "cod_mpio": "85001",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Aguazul",
+    "departamento": "Casanare",
+    "cod_mpio": "85010",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Chámeza",
+    "departamento": "Casanare",
+    "cod_mpio": "85015",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Hato Corozal",
+    "departamento": "Casanare",
+    "cod_mpio": "85125",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "La Salina",
+    "departamento": "Casanare",
+    "cod_mpio": "85136",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Maní",
+    "departamento": "Casanare",
+    "cod_mpio": "85139",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Monterrey",
+    "departamento": "Casanare",
+    "cod_mpio": "85162",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Nunchía",
+    "departamento": "Casanare",
+    "cod_mpio": "85225",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Orocué",
+    "departamento": "Casanare",
+    "cod_mpio": "85230",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Paz de Ariporo",
+    "departamento": "Casanare",
+    "cod_mpio": "85250",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Pore",
+    "departamento": "Casanare",
+    "cod_mpio": "85263",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Recetor",
+    "departamento": "Casanare",
+    "cod_mpio": "85279",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Sabanalarga",
+    "departamento": "Casanare",
+    "cod_mpio": "85300",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Sácama",
+    "departamento": "Casanare",
+    "cod_mpio": "85315",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "San Luis de Palenque",
+    "departamento": "Casanare",
+    "cod_mpio": "85325",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Támara",
+    "departamento": "Casanare",
+    "cod_mpio": "85400",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Tauramena",
+    "departamento": "Casanare",
+    "cod_mpio": "85410",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Trinidad",
+    "departamento": "Casanare",
+    "cod_mpio": "85430",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Villanueva",
+    "departamento": "Casanare",
+    "cod_mpio": "85440",
+    "cod_dpto": "85"
+  },
+  {
+    "ciudad": "Mocoa",
+    "departamento": "Putumayo",
+    "cod_mpio": "86001",
+    "cod_dpto": "86"
+  },
+  {
+    "ciudad": "Colón",
+    "departamento": "Putumayo",
+    "cod_mpio": "86219",
+    "cod_dpto": "86"
+  },
+  {
+    "ciudad": "Orito",
+    "departamento": "Putumayo",
+    "cod_mpio": "86320",
+    "cod_dpto": "86"
+  },
+  {
+    "ciudad": "Puerto Asís",
+    "departamento": "Putumayo",
+    "cod_mpio": "86568",
+    "cod_dpto": "86"
+  },
+  {
+    "ciudad": "Puerto Caicedo",
+    "departamento": "Putumayo",
+    "cod_mpio": "86569",
+    "cod_dpto": "86"
+  },
+  {
+    "ciudad": "Puerto Guzmán",
+    "departamento": "Putumayo",
+    "cod_mpio": "86571",
+    "cod_dpto": "86"
+  },
+  {
+    "ciudad": "Puerto Leguízamo",
+    "departamento": "Putumayo",
+    "cod_mpio": "86573",
+    "cod_dpto": "86"
+  },
+  {
+    "ciudad": "Sibundoy",
+    "departamento": "Putumayo",
+    "cod_mpio": "86749",
+    "cod_dpto": "86"
+  },
+  {
+    "ciudad": "San Francisco",
+    "departamento": "Putumayo",
+    "cod_mpio": "86755",
+    "cod_dpto": "86"
+  },
+  {
+    "ciudad": "San Miguel",
+    "departamento": "Putumayo",
+    "cod_mpio": "86757",
+    "cod_dpto": "86"
+  },
+  {
+    "ciudad": "Santiago",
+    "departamento": "Putumayo",
+    "cod_mpio": "86760",
+    "cod_dpto": "86"
+  },
+  {
+    "ciudad": "Valle del Guamuez",
+    "departamento": "Putumayo",
+    "cod_mpio": "86865",
+    "cod_dpto": "86"
+  },
+  {
+    "ciudad": "Villagarzón",
+    "departamento": "Putumayo",
+    "cod_mpio": "86885",
+    "cod_dpto": "86"
+  },
+  {
+    "ciudad": "San Andrés",
+    "departamento": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "cod_mpio": "88001",
+    "cod_dpto": "88"
+  },
+  {
+    "ciudad": "Providencia",
+    "departamento": "Archipiélago de San Andrés, Providencia y Santa Catalina",
+    "cod_mpio": "88564",
+    "cod_dpto": "88"
+  },
+  {
+    "ciudad": "Leticia",
+    "departamento": "Amazonas",
+    "cod_mpio": "91001",
+    "cod_dpto": "91"
+  },
+  {
+    "ciudad": "El Encanto",
+    "departamento": "Amazonas",
+    "cod_mpio": "91263",
+    "cod_dpto": "91"
+  },
+  {
+    "ciudad": "La Chorrera",
+    "departamento": "Amazonas",
+    "cod_mpio": "91405",
+    "cod_dpto": "91"
+  },
+  {
+    "ciudad": "La Pedrera",
+    "departamento": "Amazonas",
+    "cod_mpio": "91407",
+    "cod_dpto": "91"
+  },
+  {
+    "ciudad": "La Victoria",
+    "departamento": "Amazonas",
+    "cod_mpio": "91430",
+    "cod_dpto": "91"
+  },
+  {
+    "ciudad": "Mirití - Paraná",
+    "departamento": "Amazonas",
+    "cod_mpio": "91460",
+    "cod_dpto": "91"
+  },
+  {
+    "ciudad": "Puerto Alegría",
+    "departamento": "Amazonas",
+    "cod_mpio": "91530",
+    "cod_dpto": "91"
+  },
+  {
+    "ciudad": "Puerto Arica",
+    "departamento": "Amazonas",
+    "cod_mpio": "91536",
+    "cod_dpto": "91"
+  },
+  {
+    "ciudad": "Puerto Nariño",
+    "departamento": "Amazonas",
+    "cod_mpio": "91540",
+    "cod_dpto": "91"
+  },
+  {
+    "ciudad": "Puerto Santander",
+    "departamento": "Amazonas",
+    "cod_mpio": "91669",
+    "cod_dpto": "91"
+  },
+  {
+    "ciudad": "Tarapacá",
+    "departamento": "Amazonas",
+    "cod_mpio": "91798",
+    "cod_dpto": "91"
+  },
+  {
+    "ciudad": "Inírida",
+    "departamento": "Guainía",
+    "cod_mpio": "94001",
+    "cod_dpto": "94"
+  },
+  {
+    "ciudad": "Barrancominas",
+    "departamento": "Guainía",
+    "cod_mpio": "94343",
+    "cod_dpto": "94"
+  },
+  {
+    "ciudad": "San Felipe",
+    "departamento": "Guainía",
+    "cod_mpio": "94883",
+    "cod_dpto": "94"
+  },
+  {
+    "ciudad": "Puerto Colombia",
+    "departamento": "Guainía",
+    "cod_mpio": "94884",
+    "cod_dpto": "94"
+  },
+  {
+    "ciudad": "La Guadalupe",
+    "departamento": "Guainía",
+    "cod_mpio": "94885",
+    "cod_dpto": "94"
+  },
+  {
+    "ciudad": "Cacahual",
+    "departamento": "Guainía",
+    "cod_mpio": "94886",
+    "cod_dpto": "94"
+  },
+  {
+    "ciudad": "Pana Pana",
+    "departamento": "Guainía",
+    "cod_mpio": "94887",
+    "cod_dpto": "94"
+  },
+  {
+    "ciudad": "Morichal",
+    "departamento": "Guainía",
+    "cod_mpio": "94888",
+    "cod_dpto": "94"
+  },
+  {
+    "ciudad": "San José del Guaviare",
+    "departamento": "Guaviare",
+    "cod_mpio": "95001",
+    "cod_dpto": "95"
+  },
+  {
+    "ciudad": "Calamar",
+    "departamento": "Guaviare",
+    "cod_mpio": "95015",
+    "cod_dpto": "95"
+  },
+  {
+    "ciudad": "El Retorno",
+    "departamento": "Guaviare",
+    "cod_mpio": "95025",
+    "cod_dpto": "95"
+  },
+  {
+    "ciudad": "Miraflores",
+    "departamento": "Guaviare",
+    "cod_mpio": "95200",
+    "cod_dpto": "95"
+  },
+  {
+    "ciudad": "Mitú",
+    "departamento": "Vaupés",
+    "cod_mpio": "97001",
+    "cod_dpto": "97"
+  },
+  {
+    "ciudad": "Carurú",
+    "departamento": "Vaupés",
+    "cod_mpio": "97161",
+    "cod_dpto": "97"
+  },
+  {
+    "ciudad": "Pacoa",
+    "departamento": "Vaupés",
+    "cod_mpio": "97511",
+    "cod_dpto": "97"
+  },
+  {
+    "ciudad": "Taraira",
+    "departamento": "Vaupés",
+    "cod_mpio": "97666",
+    "cod_dpto": "97"
+  },
+  {
+    "ciudad": "Papunahua",
+    "departamento": "Vaupés",
+    "cod_mpio": "97777",
+    "cod_dpto": "97"
+  },
+  {
+    "ciudad": "Yavaraté",
+    "departamento": "Vaupés",
+    "cod_mpio": "97889",
+    "cod_dpto": "97"
+  },
+  {
+    "ciudad": "Puerto Carreño",
+    "departamento": "Vichada",
+    "cod_mpio": "99001",
+    "cod_dpto": "99"
+  },
+  {
+    "ciudad": "La Primavera",
+    "departamento": "Vichada",
+    "cod_mpio": "99524",
+    "cod_dpto": "99"
+  },
+  {
+    "ciudad": "Santa Rosalía",
+    "departamento": "Vichada",
+    "cod_mpio": "99624",
+    "cod_dpto": "99"
+  },
+  {
+    "ciudad": "Cumaribo",
+    "departamento": "Vichada",
+    "cod_mpio": "99773",
+    "cod_dpto": "99"
+  }
+]

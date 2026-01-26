@@ -1,0 +1,195 @@
+:root {
+  --ms-blue: #0f6cbd;
+  --ms-blue-dark: #0b5a9c;
+  --ms-bg: #f5f6f8;
+  --ms-card: #ffffff;
+  --ms-border: #e1e4e8;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  background-color: var(--ms-bg);
+  color: #1b1f23;
+}
+
+.navbar {
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+.container-main {
+  max-width: 1100px;
+}
+
+.card {
+  border: 1px solid var(--ms-border);
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.08);
+}
+
+.table thead th {
+  background: #f0f4f8;
+  border-bottom: 1px solid var(--ms-border);
+  font-weight: 600;
+}
+
+.table td, .table th {
+  vertical-align: middle;
+}
+
+.btn-primary {
+  background-color: var(--ms-blue);
+  border-color: var(--ms-blue);
+}
+
+.btn-primary:hover {
+  background-color: var(--ms-blue-dark);
+  border-color: var(--ms-blue-dark);
+}
+
+.btn-outline-primary {
+  color: var(--ms-blue);
+  border-color: var(--ms-blue);
+}
+
+.btn-outline-primary:hover {
+  background-color: var(--ms-blue);
+  color: #fff;
+}
+
+.form-control, .form-select {
+  border-radius: 10px;
+}
+
+.alert {
+  border-radius: 12px;
+}
+
+.badge-soft {
+  background: #eaf3ff;
+  color: var(--ms-blue);
+  border: 1px solid #cfe6ff;
+}
+
+.text-end {
+  text-align: right;
+}
+
+/* === Lineas: layout estable sin scroll === */
+#lineas-scope table {
+  width: 100% !important;
+  table-layout: fixed !important;
+  border-collapse: separate !important;
+  border-spacing: 10px 8px !important;
+}
+
+#lineas-scope th,
+#lineas-scope td {
+  overflow: visible !important;
+  vertical-align: middle !important;
+  padding: 0 !important;
+  white-space: nowrap;
+}
+
+#lineas-scope .lineas-table th,
+#lineas-scope .lineas-table td {
+  border-bottom: none !important;
+}
+
+/* Item puede truncar */
+#lineas-scope td.col-item select {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 100% !important;
+}
+
+/* Inputs/selects: cajas completas */
+#lineas-scope input,
+#lineas-scope select,
+#lineas-scope .form-control,
+#lineas-scope .form-select {
+  min-width: 0 !important;
+  box-sizing: border-box !important;
+  width: 100% !important;
+  height: 38px !important;
+  padding: 6px 10px !important;
+  border: 1px solid #cfd8e3 !important;
+  border-radius: 10px !important;
+  background-color: #fff !important;
+  background-clip: padding-box !important;
+  line-height: 1.2 !important;
+}
+
+/* Tipografia uniforme */
+#lineas-scope,
+#lineas-scope * {
+  font-family: inherit !important;
+  font-size: 12px !important;
+}
+
+/* Column widths (orden: Item, Cantidad, Precio, %IVA, Base, IVA, Total, Accion) */
+#lineas-scope th:nth-child(1),
+#lineas-scope td:nth-child(1) { width: 30%; }
+
+#lineas-scope th:nth-child(2),
+#lineas-scope td:nth-child(2) { width: 70px; }
+
+#lineas-scope th:nth-child(3),
+#lineas-scope td:nth-child(3) { width: 18%; }
+
+#lineas-scope th:nth-child(4),
+#lineas-scope td:nth-child(4) { width: 60px; }
+
+#lineas-scope th:nth-child(5),
+#lineas-scope td:nth-child(5) { width: 12%; }
+
+#lineas-scope th:nth-child(6),
+#lineas-scope td:nth-child(6) { width: 10%; }
+
+#lineas-scope th:nth-child(7),
+#lineas-scope td:nth-child(7) { width: 12%; }
+
+#lineas-scope th:nth-child(8),
+#lineas-scope td:nth-child(8) { width: 80px; }
+
+/* % IVA input angosto */
+#lineas-scope td:nth-child(4) input { width: 60px !important; text-align: center !important; }
+
+/* Cantidad input */
+#lineas-scope td:nth-child(2) input { width: 70px !important; text-align: center !important; }
+
+/* Precio unitario amplio */
+#lineas-scope td:nth-child(3) input { min-width: 170px !important; text-align: right !important; font-variant-numeric: tabular-nums; }
+
+/* Base/IVA/Total alineados */
+#lineas-scope td:nth-child(5),
+#lineas-scope td:nth-child(6),
+#lineas-scope td:nth-child(7) { text-align: right !important; font-variant-numeric: tabular-nums; }
+
+#lineas-scope .lineas-table th {
+  text-align: center !important;
+  vertical-align: middle !important;
+}
+
+#lineas-scope .lineas-table th.text-end {
+  text-align: center !important;
+}
+
+#lineas-scope .lineas-table th:first-child {
+  text-align: left !important;
+}
+
+/* Ocultar spinners por si aparece alguno */
+#lineas-scope input[type=number]::-webkit-inner-spin-button,
+#lineas-scope input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+#lineas-scope input[type=number] {
+  -moz-appearance: textfield;
+}

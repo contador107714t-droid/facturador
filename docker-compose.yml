@@ -1,0 +1,9 @@
+services:
+  web:
+    build: .
+    container_name: facturador_web
+    restart: unless-stopped
+    volumes:
+      - ./facturador.db:/app/facturador.db
+    ports:
+      - "8000:8000"

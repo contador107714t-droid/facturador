@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="mb-0">Previsualizar PDF</h2>
+    <a class="btn btn-primary" href="/documentos/{{ doc.id }}/pdf">Descargar PDF</a>
+</div>
+<div class="card p-3">
+    <iframe src="/documentos/{{ doc.id }}/pdf?inline=1" style="width:100%;height:80vh;border:0;" title="PDF"></iframe>
+</div>
+{% endblock %}

@@ -1,0 +1,43 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="d-flex justify-content-between align-items-center mb-3">
+    <h2 class="mb-0">Clientes <small class="text-muted">(Quienes reciben el servicio o compran los articulos)</small></h2>
+    <a class="btn btn-primary" href="/receptores/nuevo">Nuevo cliente</a>
+</div>
+{% if msg %}<div class="alert alert-success">{{ msg }}</div>{% endif %}
+{% if error %}<div class="alert alert-danger">{{ error }}</div>{% endif %}
+<div class="card p-3">
+    <div class="table-responsive">
+        <table class="table table-hover align-middle mb-0">
+            <thead>
+                <tr>
+                    <th>ID</th><th>Nombre</th><th>Identificacion</th><th>Ciudad</th><th>Departamento</th><th class="text-end">Acciones</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for receptor in receptores %}
+                <tr>
+                    <td>{{ receptor.id }}</td>
+                    <td>{{ receptor.nombre }}</td>
+                    <td>
+                        {% if receptor.tipo_identificacion == 'NIT' %}
+                            {{ receptor.identificacion|format_id_co }}-{{ receptor.identificacion|nit_dv }}
+                        {% else %}
+                            {{ receptor.identificacion|format_id_co }}
+                        {% endif %}
+                    </td>
+                    <td>{{ receptor.ciudad }}</td>
+                    <td>{{ receptor.departamento }}</td>
+                    <td class="text-end">
+                        <a class="btn btn-sm btn-outline-primary" href="/receptores/editar/{{ receptor.id }}">Editar</a>
+                        <form method="post" action="/receptores/eliminar/{{ receptor.id }}" class="d-inline" onsubmit="return confirm('Eliminar cliente?');">
+                            <button type="submit" class="btn btn-sm btn-outline-danger">Eliminar</button>
+                        </form>
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endblock %}
