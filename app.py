@@ -30,7 +30,7 @@ def inject_user(request: Request):
 templates.env.globals["current_user"] = inject_user
 
 app.mount("/static", StaticFiles(directory="static"), name="static")
-pwd_context = CryptContext(schemes=["pbkdf2_sha256"], deprecated="auto")
+pwd_context = CryptContext(schemes=["pbkdf2_sha256","bcrypt"], deprecated="auto")
 
 
 PUBLIC_PATHS = ("/login", "/static", "/favicon.ico")
@@ -42,6 +42,14 @@ async def require_login(request: Request, call_next):
     # Permite login, logout y archivos estáticos
     if path in ("/login", "/logout") or path.startswith("/static"):
         return await call_next(request)
+
+
+    # Restricción de permisos para role cliente_receptor
+    user = request.session.get("user") or {}
+    if user.get("role") == "cliente_receptor":
+        if path == "/emisores" or path.startswith("/emisores/") or path == "/receptores" or path.startswith("/receptores/"):
+            msg = quote("No tienes permisos para gestionar emisores/receptores")
+            return RedirectResponse(url=f"/?error={msg}", status_code=302)
 
     # Si no hay usuario en sesión -> login
     if not request.session.get("user"):
@@ -2219,10 +2227,24 @@ def grupos_delete(grupo_id: int):
 def documentos_new_form(request: Request):
     conn = get_db()
     cur = conn.cursor()
-    cur.execute("SELECT * FROM emisores ORDER BY nombre")
-    emisores = cur.fetchall()
-    cur.execute("SELECT * FROM receptores ORDER BY nombre")
-    receptores = cur.fetchall()
+    u = request.session.get("user") or {}
+    if u.get("role") == "cliente_receptor":
+        cur.execute("SELECT * FROM emisores WHERE id = ? ORDER BY nombre", (u.get("locked_emisor_id"),))
+        emisores = cur.fetchall()
+        cur.execute("SELECT * FROM receptores WHERE id = ? ORDER BY nombre", (u.get("locked_receptor_id"),))
+        receptores = cur.fetchall()
+    else:
+        u = request.session.get("user") or {}
+        if u.get("role") == "cliente_receptor":
+            cur.execute("SELECT * FROM emisores WHERE id = ? ORDER BY nombre", (u.get("locked_emisor_id"),))
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores WHERE id = ? ORDER BY nombre", (u.get("locked_receptor_id"),))
+            receptores = cur.fetchall()
+        else:
+            cur.execute("SELECT * FROM emisores ORDER BY nombre")
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores ORDER BY nombre")
+            receptores = cur.fetchall()
     cur.execute("SELECT * FROM items ORDER BY descripcion, codigo")
     items = cur.fetchall()
     conn.close()
@@ -2272,10 +2294,17 @@ async def documentos_new(request: Request):
     items_rows = {row["id"]: row for row in cur.fetchall()}
     doc_lines = build_lines_from_form(form, items_rows)
     if not doc_lines:
-        cur.execute("SELECT * FROM emisores ORDER BY nombre")
-        emisores = cur.fetchall()
-        cur.execute("SELECT * FROM receptores ORDER BY nombre")
-        receptores = cur.fetchall()
+        u = request.session.get("user") or {}
+        if u.get("role") == "cliente_receptor":
+            cur.execute("SELECT * FROM emisores WHERE id = ? ORDER BY nombre", (u.get("locked_emisor_id"),))
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores WHERE id = ? ORDER BY nombre", (u.get("locked_receptor_id"),))
+            receptores = cur.fetchall()
+        else:
+            cur.execute("SELECT * FROM emisores ORDER BY nombre")
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores ORDER BY nombre")
+            receptores = cur.fetchall()
         cur.execute("SELECT * FROM items ORDER BY descripcion, codigo")
         items = cur.fetchall()
         conn.close()
@@ -2297,10 +2326,17 @@ async def documentos_new(request: Request):
         )
 
     if not numero_sugerido.isdigit():
-        cur.execute("SELECT * FROM emisores ORDER BY nombre")
-        emisores = cur.fetchall()
-        cur.execute("SELECT * FROM receptores ORDER BY nombre")
-        receptores = cur.fetchall()
+        u = request.session.get("user") or {}
+        if u.get("role") == "cliente_receptor":
+            cur.execute("SELECT * FROM emisores WHERE id = ? ORDER BY nombre", (u.get("locked_emisor_id"),))
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores WHERE id = ? ORDER BY nombre", (u.get("locked_receptor_id"),))
+            receptores = cur.fetchall()
+        else:
+            cur.execute("SELECT * FROM emisores ORDER BY nombre")
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores ORDER BY nombre")
+            receptores = cur.fetchall()
         cur.execute("SELECT * FROM items ORDER BY descripcion, codigo")
         items = cur.fetchall()
         conn.close()
@@ -2392,10 +2428,17 @@ async def documentos_borrador(request: Request):
         return RedirectResponse(f"/documentos/nuevo?msg={msg}", status_code=303)
 
     if not numero_sugerido.isdigit():
-        cur.execute("SELECT * FROM emisores ORDER BY nombre")
-        emisores = cur.fetchall()
-        cur.execute("SELECT * FROM receptores ORDER BY nombre")
-        receptores = cur.fetchall()
+        u = request.session.get("user") or {}
+        if u.get("role") == "cliente_receptor":
+            cur.execute("SELECT * FROM emisores WHERE id = ? ORDER BY nombre", (u.get("locked_emisor_id"),))
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores WHERE id = ? ORDER BY nombre", (u.get("locked_receptor_id"),))
+            receptores = cur.fetchall()
+        else:
+            cur.execute("SELECT * FROM emisores ORDER BY nombre")
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores ORDER BY nombre")
+            receptores = cur.fetchall()
         cur.execute("SELECT * FROM items ORDER BY descripcion, codigo")
         items = cur.fetchall()
         conn.close()
@@ -2418,10 +2461,17 @@ async def documentos_borrador(request: Request):
 
     next_num = get_next_consecutivo(conn, emisor_id, tipo, prefijo)
     if int(numero_sugerido) != next_num:
-        cur.execute("SELECT * FROM emisores ORDER BY nombre")
-        emisores = cur.fetchall()
-        cur.execute("SELECT * FROM receptores ORDER BY nombre")
-        receptores = cur.fetchall()
+        u = request.session.get("user") or {}
+        if u.get("role") == "cliente_receptor":
+            cur.execute("SELECT * FROM emisores WHERE id = ? ORDER BY nombre", (u.get("locked_emisor_id"),))
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores WHERE id = ? ORDER BY nombre", (u.get("locked_receptor_id"),))
+            receptores = cur.fetchall()
+        else:
+            cur.execute("SELECT * FROM emisores ORDER BY nombre")
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores ORDER BY nombre")
+            receptores = cur.fetchall()
         cur.execute("SELECT * FROM items ORDER BY descripcion, codigo")
         items = cur.fetchall()
         conn.close()
@@ -2490,10 +2540,24 @@ def documentos_edit_form(request: Request, doc_id: int):
         conn.close()
         return HTMLResponse("Documento no encontrado.", status_code=404)
     cur = conn.cursor()
-    cur.execute("SELECT * FROM emisores ORDER BY nombre")
-    emisores = cur.fetchall()
-    cur.execute("SELECT * FROM receptores ORDER BY nombre")
-    receptores = cur.fetchall()
+    u = request.session.get("user") or {}
+    if u.get("role") == "cliente_receptor":
+        cur.execute("SELECT * FROM emisores WHERE id = ? ORDER BY nombre", (u.get("locked_emisor_id"),))
+        emisores = cur.fetchall()
+        cur.execute("SELECT * FROM receptores WHERE id = ? ORDER BY nombre", (u.get("locked_receptor_id"),))
+        receptores = cur.fetchall()
+    else:
+        u = request.session.get("user") or {}
+        if u.get("role") == "cliente_receptor":
+            cur.execute("SELECT * FROM emisores WHERE id = ? ORDER BY nombre", (u.get("locked_emisor_id"),))
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores WHERE id = ? ORDER BY nombre", (u.get("locked_receptor_id"),))
+            receptores = cur.fetchall()
+        else:
+            cur.execute("SELECT * FROM emisores ORDER BY nombre")
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores ORDER BY nombre")
+            receptores = cur.fetchall()
     cur.execute("SELECT * FROM items ORDER BY descripcion, codigo")
     items = cur.fetchall()
     conn.close()
@@ -2715,10 +2779,24 @@ def documentos_borrador_emitir(doc_id: int):
 def documentos_consulta(request: Request):
     conn = get_db()
     cur = conn.cursor()
-    cur.execute("SELECT * FROM emisores ORDER BY nombre")
-    emisores = cur.fetchall()
-    cur.execute("SELECT * FROM receptores ORDER BY nombre")
-    receptores = cur.fetchall()
+    u = request.session.get("user") or {}
+    if u.get("role") == "cliente_receptor":
+        cur.execute("SELECT * FROM emisores WHERE id = ? ORDER BY nombre", (u.get("locked_emisor_id"),))
+        emisores = cur.fetchall()
+        cur.execute("SELECT * FROM receptores WHERE id = ? ORDER BY nombre", (u.get("locked_receptor_id"),))
+        receptores = cur.fetchall()
+    else:
+        u = request.session.get("user") or {}
+        if u.get("role") == "cliente_receptor":
+            cur.execute("SELECT * FROM emisores WHERE id = ? ORDER BY nombre", (u.get("locked_emisor_id"),))
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores WHERE id = ? ORDER BY nombre", (u.get("locked_receptor_id"),))
+            receptores = cur.fetchall()
+        else:
+            cur.execute("SELECT * FROM emisores ORDER BY nombre")
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores ORDER BY nombre")
+            receptores = cur.fetchall()
 
     where, params, filters = parse_document_filters(
         request.query_params, default_estado="EMITIDO"
@@ -3338,10 +3416,24 @@ init_db()
 def informes_documentos(request: Request):
     conn = get_db()
     cur = conn.cursor()
-    cur.execute("SELECT * FROM emisores ORDER BY nombre")
-    emisores = cur.fetchall()
-    cur.execute("SELECT * FROM receptores ORDER BY nombre")
-    receptores = cur.fetchall()
+    u = request.session.get("user") or {}
+    if u.get("role") == "cliente_receptor":
+        cur.execute("SELECT * FROM emisores WHERE id = ? ORDER BY nombre", (u.get("locked_emisor_id"),))
+        emisores = cur.fetchall()
+        cur.execute("SELECT * FROM receptores WHERE id = ? ORDER BY nombre", (u.get("locked_receptor_id"),))
+        receptores = cur.fetchall()
+    else:
+        u = request.session.get("user") or {}
+        if u.get("role") == "cliente_receptor":
+            cur.execute("SELECT * FROM emisores WHERE id = ? ORDER BY nombre", (u.get("locked_emisor_id"),))
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores WHERE id = ? ORDER BY nombre", (u.get("locked_receptor_id"),))
+            receptores = cur.fetchall()
+        else:
+            cur.execute("SELECT * FROM emisores ORDER BY nombre")
+            emisores = cur.fetchall()
+            cur.execute("SELECT * FROM receptores ORDER BY nombre")
+            receptores = cur.fetchall()
 
     where, params, filters = parse_document_filters(request.query_params, default_estado=None)
     report = (request.query_params.get("report") or "ventas_cliente").lower()
@@ -3694,7 +3786,13 @@ def login_post(
             {"request": request, "error": "Usuario o contraseña incorrectos", "next": next},
             status_code=401,
         )
-    request.session["user"] = {"id": user["id"], "username": user["username"]}
+    request.session["user"] = {
+        "id": user["id"],
+        "username": user["username"],
+        "role": user["role"],
+        "locked_emisor_id": user["locked_emisor_id"],
+        "locked_receptor_id": user["locked_receptor_id"],
+    }
     return RedirectResponse(url=next or "/", status_code=302)
 
 @app.get("/logout")
